@@ -24,7 +24,7 @@ def game():
     cidade.esquerda = floresta
     floresta.esquerda = mesa_de_cha
     
-    tarzan = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=100, top=100, width=100, height="200px"))
+    tarzan = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=20, top=20, width=100, height="200px"))
     tarzan.entra(mesa_de_cha)
     mesa_de_cha.vai()
     
