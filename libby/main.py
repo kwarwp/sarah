@@ -1,6 +1,7 @@
 # sarah.libby.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
+from _spy.vitollino.main import Musica
 
 STYLE ['width'] = 700
 CINDERELA = "https://imagensemoldes.com.br/wp-content/uploads/2018/04/Imagem-de-Personagens-Cinderela-3-PNG-211x300.png"
