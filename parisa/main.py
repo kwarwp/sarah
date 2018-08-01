@@ -22,4 +22,7 @@ CHA = "https://i.imgur.com/TXBPGM9.jpg"
 TARZAN = "
 
 def game():
-    
+   cha = Cena(img=CHA)
+   pantano = Cena(img=PANTANO)
+   tarzan_fogo = Cena(img=TARZAN_FOGO)
+   
