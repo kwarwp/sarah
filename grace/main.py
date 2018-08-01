@@ -36,6 +36,8 @@ def game():
     
     homem_aranha= Elemento(img=HOMEM_ARANHA, tit="Homem_aranha", style=dict(left=15, top=180, width=100, height="200px"))
     homem_aranha.entra(casinha)
+    homem_aranhafala = Texto(casinha, "Será um prazer acompanhar vcs nesse chá delícia!")
+    homem_aranha.vai = homem_aranhafala.vai
     
    
     mesa_de_cha.vai()
