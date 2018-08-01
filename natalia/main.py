@@ -45,6 +45,9 @@ def game():
     #cinderela.direita = pantano
     #pantano.direita = tarzan
     
+    fala_tarzan = Texto(casa, "Algo estranho na selva... Preciso investigar!!!")
+    tarzan_casa.vai = fala_tarzan.vai
+    
     susto_cinderela = Texto(castelo_interior, "Ai, meu Deus!!! Quem é você???")
     cinderela_susto_castelo.vai = susto_cinderela.vai
     
