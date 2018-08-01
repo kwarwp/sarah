@@ -63,7 +63,10 @@ def game():
     falagalera = Texto(castelo, "Esse é o baile da Gaiola")
     galera.vai = falagalera.vai
     
-     
+    import pygame
+    pygame.init()
+    from pygame.mixer import Sound
+    audio = pygame.mixer.Sound("http://audiosoundclips.com/wp-content/uploads/2016/01/Dubtrain.mp3")
 
     
     pantano.vai()
