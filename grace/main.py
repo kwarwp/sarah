@@ -11,3 +11,6 @@ MESA_DE_CHA = "https://limaoflor.files.wordpress.com/2013/01/festa-alice0002.jpg
 FLORESTA = "https://img.elo7.com.br/product/original/10C700C/painel-floresta-g-frete-gratis-painel-impresso.jpg"
 CIDADE = "http://amelhorcoisadaminhavida.com.br/wp-content/uploads/2018/01/Cidade-do-panama.jpg"
 CASINHA = "https://media-cdn.tripadvisor.com/media/photo-s/04/61/33/29/casinha-amarela.jpg"
+
+def game():
+
