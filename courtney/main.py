@@ -4,7 +4,7 @@ from _spy.vitollino.main import INVENTARIO as inv
 
 STYLE['width'] = 700
 
-YODA = "https://banner2.kisspng.com/20180425/ttq/kisspng-yoda-count-dooku-luke-skywalker-anakin-skywalker-c-wars-clipart-5ae03606c8e039.1960112715246433348228.jpg"
+YODA = "https://banner2.kisspng.com/20180402/ugw/kisspng-pegasus-seiya-leo-aiolia-sagittarius-aiolos-saint-sagittarius-5ac247203f1446.0231978215226816322584.jpg"
 CASA_FLORESTA = "https://png.pngtree.com/element_origin_min_pic/16/07/17/17578b4cfbd4e93.jpg"
 CINDERELA = "https://png.pngtree.com/element_pic/00/16/09/0957d1be2423435.jpg" 
 CHA_DE_DESANIVERSARIO = "http://images1.fanpop.com/images/photos/1700000/Alice-in-Wonderland-1951-alice-in-wonderland-1758796-500-372.jpg"
@@ -20,7 +20,7 @@ def game():
     castelo.esquerda = cha_de_desaniversario
     cha_de_desaniversario.esquerda = casa_floresta
     
-    yoda = Elemento(img=YODA, tit="Yoda", style=dict(left=150, top=250, width=50, height="200px"))
+    yoda = Elemento(img=YODA, tit="Yoda", style=dict(left=150, top=250, width=250, height="250px"))
     yoda.entra(casa_floresta)
     
     falayoda = Texto(casa_floresta, "Quero comer bolo")
