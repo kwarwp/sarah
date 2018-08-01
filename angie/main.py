@@ -19,4 +19,6 @@ PANTANO = "http://1.bp.blogspot.com/-pl302GLRMJA/VjycgVhnfOI/AAAAAAAAJow/ELVAKG5
 CIDADE = "http://www.quintaldomaracana.com.br/wp-content/uploads/2016/05/hostel-rio-de-janeiro-tijuca-maracana-foto-mauriciotravels.jpg"
 CASTELO = "https://speaknowblog.files.wordpress.com/2011/10/cimg22931.jpg"
 
+
+def game(){ 
  
