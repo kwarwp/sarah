@@ -16,5 +16,5 @@ HOMEM-ARANHA = "https://static.wixstatic.com/media/dd9c2d_63f04202d4a4430cb4d4c4
 BARBIE = "http://1.bp.blogspot.com/-grB1NKIXwqw/UzRDyJiVLeI/AAAAAAAAdSE/v6FWRgv-2Hc/s1600/Baibie-em-png-queroimagem-cei%C3%A7a-crispim+(2).png"
 
 PANTANO = "http://1.bp.blogspot.com/-pl302GLRMJA/VjycgVhnfOI/AAAAAAAAJow/ELVAKG5UFU8/s1600/Dagobah-680x306.jpg"
-CIDADE = "https://cdn.shopify.com/s/files/1/0659/9787/files/NEWYORK_2048x2048.jpg?689"
+CIDADE = "http://www.quintaldomaracana.com.br/wp-content/uploads/2016/05/hostel-rio-de-janeiro-tijuca-maracana-foto-mauriciotravels.jpg"
 CASTELO = "https://speaknowblog.files.wordpress.com/2011/10/cimg22931.jpg"
