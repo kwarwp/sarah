@@ -15,4 +15,6 @@ YODA = "https://vignette.wikia.nocookie.net/disney/images/9/95/Master_Yoda.png/r
 HOMEM-ARANHA = "https://static.wixstatic.com/media/dd9c2d_63f04202d4a4430cb4d4c479ed917932~mv2.png/v1/fill/w_269,h_224,al_c,usm_0.66_1.00_0.01/dd9c2d_63f04202d4a4430cb4d4c479ed917932~mv2.png"
 BARBIE = "http://1.bp.blogspot.com/-grB1NKIXwqw/UzRDyJiVLeI/AAAAAAAAdSE/v6FWRgv-2Hc/s1600/Baibie-em-png-queroimagem-cei%C3%A7a-crispim+(2).png"
 
-PANTANO = "
+PANTANO = "http://1.bp.blogspot.com/-pl302GLRMJA/VjycgVhnfOI/AAAAAAAAJow/ELVAKG5UFU8/s1600/Dagobah-680x306.jpg"
+CIDADE = "https://cdn.shopify.com/s/files/1/0659/9787/files/NEWYORK_2048x2048.jpg?689"
+CASTELO = "https://speaknowblog.files.wordpress.com/2011/10/cimg22931.jpg"
