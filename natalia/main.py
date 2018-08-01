@@ -19,7 +19,8 @@ def game():
     cinderela = Cena(img=CINDERELA)
     pantano = Cena(img=PANTANO)
     
-    tarzan.direita = casa
+    tarzan.entra(casa)
+    #tarzan.direita = casa
     casa.direita = homemaranha
     homemaranha.direita = castelo
     castelo.direita = cinderela
@@ -28,6 +29,6 @@ def game():
     cinderela.direita = pantano
     pantano.direita = tarzan
     
-    tarzan.vai()
+    casa.vai()
     
 game()
