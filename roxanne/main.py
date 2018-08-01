@@ -25,3 +25,9 @@ def game():
     castelo.esquerda = pantano
     pantano.esquerda = cha
     
+    
+    
+    cha.vai()
+    
+    
+game()
