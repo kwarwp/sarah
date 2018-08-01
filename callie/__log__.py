@@ -27,3 +27,10 @@ SyntaxError: invalid syntax
          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Aug 02 2018 03:56:34.345 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 38
+  falabarbie = Texto(floresta, "quero encontrar o Ken"
+                                                            ^
+SyntaxError: invalid syntax
+'''},
