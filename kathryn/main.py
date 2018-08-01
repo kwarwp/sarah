@@ -17,7 +17,16 @@ def game():
     cidade = Cena(img=CIDADE)
     castelo.direita = floresta
     floresta.direita = cidade
-    cidade.esquerda = castelo
+    cidade.esquerda = floresta
+    floresta.esquerda = castelo
     
-    castelo.vai
+    barbie = Elemento(img=BARBIE, 
+    tit="Barbie", style=dict(left=300, 
+    top=100, width=50, height="200px"))
+    barbie.entra(castelo)
+    
+    castelo.vai()
+    
+    
+game()
     
