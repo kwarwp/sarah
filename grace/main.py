@@ -30,12 +30,12 @@ def game():
     tarzanfala = Texto(mesa_de_cha, "Oi, vamos tomar chá juntos?")
     tarzan.vai=tarzanfala.vai
     
-    alice= Elemento(img=ALICE, tit="Alice", style=dict(left=700, top=250, width=50, height="100px"))
+    alice= Elemento(img=ALICE, tit="Alice", style=dict(left=600, top=400, width=50, height="100px"))
     alice.entra(cidade)
     alicefala = Texto(cidade, "Claro que sim. Estou indo! Vou convidar o Homem aranha pra ir comigo")
     alice.vai = alicefala.vai
     
-    homem_aranha= Elemento(img=HOMEM_ARANHA, tit="Homem_aranha", style=dict(left=15, top=180, width=100, height="200px"))
+    homem_aranha= Elemento(img=HOMEM_ARANHA, tit="Homem_aranha", style=dict(left=200, top=180, width=100, height="200px"))
     homem_aranha.entra(casinha)
     homem_aranhafala = Texto(casinha, "Será um prazer acompanhar vcs nesse chá delícia!")
     homem_aranha.vai = homem_aranhafala.vai
