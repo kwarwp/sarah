@@ -23,13 +23,29 @@ def game():
     casa.esquerda = cha
     cha.esquerda = cidade
     
-    yoda = Elemento(img=YODA, tit="Yoda", style=dict(left=250, top=250, width=200, height="200px"))
+    yoda = Elemento(img=YODA, tit="Yoda", style=dict(left=50, top=50, width=200, height="200px"))
     yoda.entra(cidade)
-    
-    falayoda = Texto(cidade, "Que a força com você esteja, padawan!")
+        
+    falayoda = Texto(cidade, "Mim, programa fazer, padawan! (Sotaque do Yoda)")
     yoda.vai = falayoda.vai
     
+    alice = Elemento(img=ALICE, tit="Alice", style=dict(left=250, top=100, width=200, height="200px"))
+    alice.entra(cha)
     
+    yoda.entra(cha)
+    falaalice = Texto(cha, "Cadê seu sabre de luz, yoda?")
+    alice.vai = falaalice.vai
+    falayodasegundo = Texto(cha, "Yoda sabre de luz no tempo perder!")
+    yoda.vai = falayodasegundo.vai
+    
+    yoda.entra(casa)
+    tarzan = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=400, top=50, width=200, height="200px"))
+    tarzan.entra(casa)
+    
+    falatarzan = Texto(casa, "Hoje vou ver a Jane na Tela quente!")
+    tarzan.vai = falatarzan.vai
+    falayodaterceiro = Texto(casa, "Mim filme, hoje verei :)")
+    yoda.vai=falayodaterceiro.vai
     cidade.vai()
     
     
