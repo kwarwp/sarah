@@ -35,7 +35,7 @@ def game():
     barbie = Elemento(img=BARBIE, tit="Barbie", style=dict(left=300, top=100, width=100, height="200px"))
     barbie.entra(floresta)
     
-    falabarbie = Texto(floresta, "quero encontrar o Ken"
+    falabarbie = Texto(floresta, "quero encontrar o Ken")
     barbie.vai = falabarbie.vai
     
     cinderela = Elemento(img=CINDERELA, tit="Cinderela", style=dict(left=300, top=100, width=100, height="200px"))
