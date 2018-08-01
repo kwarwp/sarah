@@ -47,3 +47,10 @@ NameError: name 'yoda' is not defined
                  ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 01 2018 16:51:54.831 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 45
+  game()
+  ^
+IndentationError: unexpected indent
+'''},
