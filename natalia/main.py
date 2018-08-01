@@ -27,7 +27,7 @@ def game():
     cinderela.direita = castelo
     castelo.direita = cinderela
     cinderela.direita = pantano
-    pantano.direita = tarzan
+    #pantano.direita = tarzan
     
     casa.vai()
     
