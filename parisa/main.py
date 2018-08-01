@@ -23,10 +23,6 @@ YODA_ACORDA = "https://i.imgur.com/iG00lnv.png"
 TARZAN = "http://vsbattles.wikia.com/wiki/File:Tarzan.png"
 CORINGA = "https://www.agenciablank.com.br/wp-content/uploads/2018/02/cropped-logo-blank-18.png"
 def game():
-
-
-
-
     cha = Cena(img=CHA)
     yoda_acorda = Cena(img=YODA_ACORDA)
     pantano = Cena(img=PANTANO)
@@ -36,13 +32,5 @@ def game():
     tarzan_fogo.esquerda = yoda_acorda
     yoda_acorda.esquerda = cha
     
-    coringa = Elemento(img=CORINGA,
-    tit="Coringa", style=dict(left=150,
-    top=150, width=50, height="200px"))
-    coringa.entra(cha)
     
-    falayoda = Texto(coringa, "Onde está Alice?")
-    cha.vai = falayoda.vai
-    cha.vai()
-game()    
-    
+    game()
