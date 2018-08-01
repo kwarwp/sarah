@@ -28,8 +28,3 @@ def game():
     tarzan.entra(mesa_de_cha)
     mesa_de_cha.vai()
     
-    falatarzan = Texto(mesa_de_cha, "minha mesa é linda")
-    mesa_de_cha.vai()
-    
-    game()
-    
