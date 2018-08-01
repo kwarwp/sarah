@@ -1,6 +1,6 @@
 # sarah.natalia.main.py
-from _sypy.vitollino.main import Cena, Elemento, Texto, STYLE
-from _sypy.vitollino.main import INVENTARIO as inv
+from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
+from _spy.vitollino.main import INVENTARIO as inv
 
 STYLE['width'] = 700
 
