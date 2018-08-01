@@ -20,9 +20,9 @@ def game():
     cidade = Cena(img=CIDADE)
     cha = Cena(img=CHA)
     Casa = Cena(img=CASA)
-    cidade.direita=cha
-    cha.direita=casa
-    casa.direita=cidade
+    cidade.direita = cha
+    cha.direita = casa
+    casa.direita = cidade
     cidade.vai()
     
 game()
