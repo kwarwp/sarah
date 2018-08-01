@@ -46,8 +46,14 @@ def game():
     barbie = Elemento(img=BARBIE, tit="Barbie", style=dict(left=400, top=300, width=300, height="300px"))
     barbie.entra(pantano)
     
-    falabarbie = Texto(pantano, "Enquanto isso Barbie se perdeu no Pantano.")
+    falabarbie = Texto(pantano, "Enquanto isso Barbie se perdeu no Pantano")
     barbie.vai = falabarbie.vai
+    
+    alice = Elemento(img=ALICE, tit="ALICE", style=dict(left=500, top=360, width=100, height="200px"))
+    alice.entra(castelo)
+    
+    falaalice = Texto(castelo, "Alice saiu do Castelo pois estava preocupada com a demora de Barbie")
+    alice.vai = falaalice.vai
     
     cha.vai()
     
