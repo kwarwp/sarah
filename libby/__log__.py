@@ -63,3 +63,10 @@ NameError: name 'game' is not defined
     game()
 NameError: name 'game' is not defined
 '''},
+{'date': 'Wed Aug 01 2018 15:48:56.462 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  cinderela = Elemento(img= CINDERELA, tit="cinderela".style=dict(left=300,
+                                                                                                                   ^
+SyntaxError: invalid syntax
+'''},
