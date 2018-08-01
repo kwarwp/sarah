@@ -22,7 +22,7 @@ def game():
     pantano = Cena(img=PANTANO)
     
     fala_aranha = Texto(castelo, "Cadê o Venom???")
-    castelo.vai = fala_aranha.vai
+    homemaranha_castelo.vai = fala_aranha.vai
     
     tarzan.direita = casa
     tarzan_casa.entra(casa)
