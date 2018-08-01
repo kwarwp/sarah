@@ -19,7 +19,7 @@ ALICE = "http1.bp.blogspot.com-sJykitngfbQVk9VANJv_4IAAAAAAAALaQUi9Mw02CRSUs1600
 YODA = "http://pngimg.com/uploads/starwars/starwars_PNG62.png"
 FOGO = "http://2.bp.blogspot.com/-HOxFQa9iGv8/T6s9kuBLAAI/AAAAAAAAGiw/sjK-EuhC5gE/s1600/fire.png"
 CHA = "https://i.imgur.com/TXBPGM9.jpg"
-
+TARZAN = "
 
 def game():
     
