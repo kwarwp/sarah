@@ -88,3 +88,10 @@ NameError: <ReferenceError: Invalid left-hand side in assignment>
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Aug 01 2018 15:56:21.892 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 33
+  homemaranha = Elemento(img=HOMEMARANHA, tit = "Homem Aranha Boyzão", style=dict(left=200, top=100, width=150, height="100px"))
+  ^
+IndentationError: unexpected indent
+'''},
