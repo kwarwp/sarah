@@ -39,8 +39,11 @@ def jogo():
     top=50, width=400, height="400px"))
     cinderela.entra(floresta)
     
-    falacinderela = texto(floresta, " Yoda, vamos tomar um chá?")
-    falayoda = texto(floresta, " Sim, muito obrigado pelo convite.")
+    falacinderela = Texto(floresta, " Yoda, vamos tomar um chá?")
+    cinderela.vai = falacinderela.vai
+    
+    falayoda = Texto(floresta, " Sim, muito obrigado pelo convite.")
+    yoda.vai = falayoda.vai
     
     floresta.vai() 
     
