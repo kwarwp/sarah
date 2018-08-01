@@ -11,7 +11,15 @@ ALICE = "https://3.bp.blogspot.com/-o7Y78sYGkjY/V6O1G7WysSI/AAAAAAAAMO8/IG0Q7cJK
 FLORESTA = "https://img.elo7.com.br/product/zoom/12F2BAA/painel-de-festa-floresta-3-painel-em-tecido.jpg"
 CASTELO = "http://www.imagenspng.com.br/wp-content/uploads/2015/04/branca-de-neve-cute-castelo-03.png"
 CHA = "https://cintiasiloto.files.wordpress.com/2011/10/alice-e-gato-risonho.png"
+PANTANO = "https://cdn.xl.thumbs.canstockphoto.com.br/p%C3%A2ntano-ilustra%C3%A7%C3%A3o_csp15440725.jpg"
 
 def game():
-    castelo = Cena(img=CHA)
-    homem aranha = Cena(img=HOMEM_ARANHA)
+    cha = Cena(img=CHA)
+    pantano = Cena(img=PANTANO)
+    castelo = Cena(img=CASTELO)
+    floresta = Cena(img=FLORESTA)
+    cha.direita = pantano
+    pantano.direita= castelo
+    castelo.direita = floresta
+    floresta.esquerda = cha
+    
