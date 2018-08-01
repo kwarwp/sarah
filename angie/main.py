@@ -25,4 +25,4 @@ def game():
     cidade =  Cena(img=CIDADE)
     castelo = Cena(img=CASTELO)
     
-    h
+    
