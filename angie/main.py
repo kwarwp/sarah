@@ -61,7 +61,7 @@ def game():
     
     galera = Elemento(img=GALERA, tit= "Galera do baile",style=dict(left=250, top=50, width=300, height="100px"))
     galera.entra(castelo)
-    falagalera = Texto(castelo, "Esse é o baile da Gaiola")
+    falagalera = Texto(castelo, "Esse é o baile dos PIEs")
     galera.vai = falagalera.vai
     
 
