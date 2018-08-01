@@ -1,6 +1,7 @@
 # sarah.callie.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
+from _spy.vitollino.main import Musica
 
 STYLE['width'] = 700
 
@@ -51,5 +52,7 @@ def game():
     
     falahomemaranha = Texto(castelo, "onde estão essas mulheres?")
     homemaranha.vai = falahomemaranha.vai
+    
+    Musica("http://audiosoundclips.com/wp-content/uploads/2012/01/Bird.mp3")
     
 game()
