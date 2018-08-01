@@ -20,6 +20,9 @@ def game():
     castelo.esquerda = cha_de_desaniversario
     cha_de_desaniversario.esquerda = casa_floresta
     
+    yoda = Elemento(img=YODA, tit="Yoda", style=dict(left=300, top=100, width=50, height="200px"))
+    cinderela.entra(casa_floresta)
+    
     casa_floresta.vai()
 
 
