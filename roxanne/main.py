@@ -25,7 +25,7 @@ def game():
     castelo.esquerda = pantano
     pantano.esquerda = cha
     
-    alice = Elemento(img=ALICE, tit="ALICE", style=dict(left=300, top=250, width=50, height="200px"))
+    alice = Elemento(img=ALICE, tit="ALICE", style=dict(left=600, top=250, width=50, height="200px"))
     alice.entra(cha)
     
     
