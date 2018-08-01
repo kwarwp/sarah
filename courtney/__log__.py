@@ -96,3 +96,10 @@ NameError: name 'cinderela' is not defined
                                                                                       ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 01 2018 16:27:45.664 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  yoda = Elemento(img=YODA, tit="Yoda", style=dict(left=150,top=250, width=50, height"300px"))
+                                                                                      ^
+SyntaxError: invalid syntax
+'''},
