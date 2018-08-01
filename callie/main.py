@@ -14,4 +14,11 @@ CASTELO = "https://vignette.wikia.nocookie.net/ouat/images/a/af/Castelo.png/revi
 CIDADE = "https://img.elo7.com.br/product/zoom/1ABC2E1/painel-adesivo-decorativo-cidade-painel-decorativo-de-parede.jpg"
 PANTANO = "https://www.meusonhar.com.br/wp-content/uploads/2016/12/sonhar-com-pantano-e1483464058111.jpg"
 
-def  game():
+def game():
+    floresta = Cena(img=FLORESTA)
+    floresta2 = Cena(img=FLORESTA)
+    castelo = Cena(img=CASTELO)
+    floresta3 = Cena(img=FLORESTA)
+    cidade = Cena(img=CIDADE)
+    pantano = Cena(img=PANTANO)
+    
