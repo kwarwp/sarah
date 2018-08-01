@@ -31,6 +31,8 @@ def game():
     tarzan_fogo.esquerda = yoda_acorda
     yoda_acorda.esquerda = cha
     
+    falayoda = Texto(cha, "Onde está Alice?")
+    yoda.vai = falayoda.vai
     cha.vai()
 game()    
     
