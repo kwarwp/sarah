@@ -24,7 +24,11 @@ CASA = "https://vignette.wikia.nocookie.net/lifeinthedreamhouse/images/3/31/Loca
 def game():
     pantano = Cena(img=PANTANO)
     cidade =  Cena(img=CIDADE)
-    castelo = Cena(img=CASTELO)
     casa = Cena(img=CASA)
+    castelo = Cena(img=CASTELO)
+    
+    pantano.direita = cidade
+    cidade.direita = casa
+    casa.direita = castelo
     
     
