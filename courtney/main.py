@@ -21,17 +21,14 @@ def game():
     castelo.esquerda = cha_de_desaniversario
     cha_de_desaniversario.esquerda = casa_floresta
     
-    yoda = Elemento(img=YODA, tit="Yoda", style=dict(left=150,top=250, width=50, height"300px"))
+    yoda = Elemento(img=YODA,
+    tit="Yoda", style=dict(left=150,
+    top=250, width=50, height"300px"))
     yoda.entra(casa_floresta)
+
     falayoda = Texto(casa_floresta, "Eu quero bolo")
-    yoda.vai = falayoda.vai
+    yoda.vai = falayoda.vai    
 
-    Musica ("http://audiosoundclips.com/wp-content/uploads/2011/12/Elephanttrumpet.mp3")
-
-
-    
-    
-    
     casa_floresta.vai()
 
 
