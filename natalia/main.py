@@ -34,8 +34,9 @@ def game():
     casa.direita = castelo
     homemaranha.direita = castelo
     homemaranha_castelo.entra(castelo)
-    castelo.direita = cinderela
-    cinderela.direita = castelo_interior
+    #castelo.direita = cinderela
+    castelo.direita = castelo_interior
+    #cinderela.direita = castelo_interior
     homemaranha_susto_castelo.entra(castelo_interior)
     cinderela_susto_castelo.entra(castelo_interior)
     castelo_interior.direita = pantano
