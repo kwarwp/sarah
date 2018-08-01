@@ -33,7 +33,7 @@ def jogo():
     casa.esquerda = floresta
     
     yoda = Elemento(img=YODA, tit="yoda", style=dict(left=50, 
-    top=50, width=100, height="400px"))
+    top=50, width=400, height="400px"))
     yoda.entra(floresta)
     
     floresta.vai() 
