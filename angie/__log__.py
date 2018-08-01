@@ -77,3 +77,7 @@ NameError: <ReferenceError: Invalid left-hand side in assignment>
 'error': '''
 NameError: <ReferenceError: Invalid left-hand side in assignment>
 '''},
+{'date': 'Wed Aug 01 2018 15:39:54.755 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: Invalid left-hand side in assignment>
+'''},
