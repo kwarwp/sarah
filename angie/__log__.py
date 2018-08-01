@@ -46,3 +46,10 @@ Traceback (most recent call last):
     print("olá, " . nome$);
 AttributeError: 'str' object has no attribute 'nome$'
 '''},
+{'date': 'Wed Aug 01 2018 14:30:14.630 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 5
+  print("olá, " +. nome$);
+                   ^
+SyntaxError: invalid syntax
+'''},
