@@ -44,6 +44,6 @@ def game():
     fala_aranha = Texto(castelo, "Cadê o Venom???")
     homemaranha_castelo.vai = fala_aranha.vai
     
-    tarzan.vai()
+    cinderela.vai()
     
 game()
