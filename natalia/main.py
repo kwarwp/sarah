@@ -6,7 +6,7 @@ STYLE['width'] = 700
 
 TARZAN = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest/scale-to-width-down/399?cb=20170117061234"
 CASA = "http://pngimg.com/uploads/house/house_PNG50.png"
-HOMEMARANHA = "https://www.desicomments.com/wp-content/uploads/2017/02/Spiderman-Nice-Pic-600x432.png"
+HOMEMARANHA = "https://icon2.kisspng.com/20180202/rue/kisspng-spider-man-shattered-dimensions-superhero-spiderman-comic-png-free-download-5a74ae31ee7826.8714463515175962099768.jpg"
 CASTELO = "https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Castles-PNG/Pink_Castle_PNG_Clipart_Image.png?m=1507172106"
 CINDERELA = "https://2.bp.blogspot.com/--O7PEMf5dgI/V1WAINEMFgI/AAAAAAAAGQg/MLO8j1u-iJEhPyuXEEVZ8hksqAfPTAYNQCLcB/s1600/cinderella-transp.png"
 PANTANO = "https://vignette.wikia.nocookie.net/starwars/images/f/f0/InYouMustGo-TCGCS.png/revision/latest?cb=20141218063223"
