@@ -14,7 +14,7 @@ CASTELO = "https://i0.wp.com/melprandatoemorlando.com.br/wp-content/uploads/2015
 def game():
     casa_floresta = Cena(img=CASA_FLORESTA)
     cha_de_desaniversario = Cena(img=CHA_DE_DESANIVERSARIO)
-    castelo = Cena(img=CAASTELO)
+    castelo = Cena(img=CASTELO)
     casa_floresta.direita = cha_de_desaniversario
     cha_de_desaniversario.direita = castelo
     castelo.esquerda = cha_de_desaniversario
