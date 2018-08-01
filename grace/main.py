@@ -29,7 +29,7 @@ def game():
     tarzanfala = Texto(mesa_de_cha, "Oi, vamos tomar chá juntos?")
     tarzan.vai=tarzanfala.vai
     
-    alice= Elemento(img=ALICE, tit="Alice", style=dict(left=150, top=180, width=100, height="200px"))
+    alice= Elemento(img=ALICE, tit="Alice", style=dict(left=400, top=180, width=100, height="200px"))
     alice.entra(cidade)
     homem_aranha= Elemento(img=HOMEM_ARANHA, tit="Homem_aranha", style=dict(left=15, top=180, width=100, height="200px"))
     homem_aranha.entra(casinha)
