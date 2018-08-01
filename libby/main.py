@@ -33,7 +33,7 @@ def games():
     barbie.vai = falabarbie.vai
     
     alice = Elemento(img=ALICE, tit="alice",style=dict(left=300,
-    top=300, width=100, height="200px"))
+    top=250, width=100, height="200px"))
     alice.entra(castelo)
     
     falaalice = Texto(castelo, "Achei vocês! Vamos comemorar?")
