@@ -14,9 +14,10 @@ STYLE['width'] = 700
 
 HomemAranha = "http://3.bp.blogspot.com/-uv54jlZoqfU/T9eUlpul_CI/AAAAAAAAFos/NCmWuK9X9Nw/s1600/Homem-Aranha-png-Queroimagem.com+%284%29.png"
 Pantano = "http://4.bp.blogspot.com/-hE1u7v-c2v0/Vjq_YbcIwfI/AAAAAAAAACk/gPbNpntWPl4/s1600/P%25C3%25A2ntano%2BManchac%2B1.jpg"
-Tarzan
+Tarzan = "https://i.imgur.com/wB93zqI.jpg"
 Alice = "http1.bp.blogspot.com-sJykitngfbQVk9VANJv_4IAAAAAAAALaQUi9Mw02CRSUs1600ALICE_TEKA%2B24.png"
-Yoda
+Yoda = "http://pngimg.com/uploads/starwars/starwars_PNG62.png"
 Fogo = "http://2.bp.blogspot.com/-HOxFQa9iGv8/T6s9kuBLAAI/AAAAAAAAGiw/sjK-EuhC5gE/s1600/fire.png"
+
 
 
