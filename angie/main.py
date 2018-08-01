@@ -20,5 +20,6 @@ CIDADE = "http://www.quintaldomaracana.com.br/wp-content/uploads/2016/05/hostel-
 CASTELO = "https://speaknowblog.files.wordpress.com/2011/10/cimg22931.jpg"
 
 
-def game(){ 
+def game():
+    
  
