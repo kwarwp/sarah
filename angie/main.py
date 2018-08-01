@@ -35,4 +35,4 @@ def game():
     cidade.esquerda = pantano
     casa.esquerda = cidade
     
-    pantano.vai
+    pantano.vai()
