@@ -23,12 +23,13 @@ YODA_ACORDA = "https://i.imgur.com/iG00lnv.png"
 TARZAN = "http://vsbattles.wikia.com/wiki/File:Tarzan.png"
 def game():
     cha = Cena(img=CHA)
+    yoda_acorda = Cena(img=YODA_ACORDA)
     pantano = Cena(img=PANTANO)
     tarzan_fogo = Cena(img=TARZAN_FOGO)
-    cha.direita = pantano
-    pantano.direita = tarzan_fogo
-    tarzan_fogo.esquerda = pantano
-    pantano.esquerda = cha
+    cha.direita = yoda_acorda
+    yoda_acorda.direita = tarzan_fogo
+    tarzan_fogo.esquerda = yoda_acorda
+    yoda_acorda.esquerda = cha
     
     cha.vai()
 game()    
