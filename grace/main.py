@@ -27,7 +27,7 @@ def game():
     tarzan = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=15, top=180, width=100, height="200px"))
     tarzan.entra(mesa_de_cha)
     tarzanfala = Texto(mesa_de_cha, "Oi, vamos tomar chá juntos?")
-    tarzan.vai=tarzanfala
+    tarzan.vai=tarzanfala.vai
     
     alice= Elemento(img=ALICE, tit="Alice", style=dict(left=15, top=180, width=100, height="200px"))
     alice.entra(cidade)
