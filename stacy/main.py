@@ -1,10 +1,11 @@
 # sarah.stacy.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
+from _spy.vitollino.main import Musica
 
 STYLE['width'] = 700
 
-YODA = "https://i2.wp.com/www.emotioncard.com.br/wp-content/uploads/2017/07/Yodas_hover_chair.png?fit=640%2C720&ssl=1"
+YODA = "http://3.bp.blogspot.com/-bJt5MBHwLAY/UxorHfGu7yI/AAAAAAAAJoQ/ISkePDNKDdc/s1600/Yoda+Do+or+do+not.png"
 HOMEMARANHA = "https://opcaonews.com.br/wp-content/uploads/2017/07/homem-aranha.png"
 CINDERELA = "https://vignette.wikia.nocookie.net/disneyprincess/images/f/fd/Cinderellabarefoot.png/revision/latest?cb=20180601173051"
 BARBIE = "http://3.bp.blogspot.com/_XVXE0u_nSqY/S-r2RF-K84I/AAAAAAAAApY/m-cVhub0zm4/s1600/Untitled+2.png"
@@ -45,7 +46,7 @@ def jogo():
     falayoda = Texto(floresta, " Sim, muito obrigado pelo convite.")
     yoda.vai = falayoda.vai
     
-    floresta.vai()
+    floresta.vai() 
     
 
 jogo()
