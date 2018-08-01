@@ -21,6 +21,9 @@ def game():
     cinderela = Cena(img=CINDERELA)
     pantano = Cena(img=PANTANO)
     
+    fala_aranha = Texto(castelo, "Cadê o Venom???")
+    castelo.vai = fala_aranha.vai
+    
     tarzan.direita = casa
     tarzan_casa.entra(casa)
     casa.direita = homemaranha
