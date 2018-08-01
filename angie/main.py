@@ -31,4 +31,7 @@ def game():
     cidade.direita = casa
     casa.direita = castelo
     
+    pantano.esquerda = castelo
+    cidade.esquerda = pantano
+    casa.esquerda = cidade
     
