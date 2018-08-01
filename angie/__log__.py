@@ -57,3 +57,7 @@ SyntaxError: invalid syntax
 'error': '''
 NameError: <ReferenceError: Invalid left-hand side in assignment>
 '''},
+{'date': 'Wed Aug 01 2018 15:18:13.301 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: Invalid left-hand side in assignment>
+'''},
