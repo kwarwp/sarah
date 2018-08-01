@@ -35,7 +35,8 @@ def game():
     
     barbie = Elemento(img=BARBIE, tit = "Barbie Boladona", style=dict(left=400, bottom=100, width=100, height="100px"))
     barbie.entra(casa)
-    falabarbie=Texto(casa, "Queria ir p'a um baile boladão")
+    falabarbie=Texto(casa, "Queria ir a um baile boladão")
+    barbie.vai = falabarbie.vai
     
     pantano.direita = cidade
     cidade.direita = casa
