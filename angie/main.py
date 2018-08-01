@@ -10,7 +10,7 @@ from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO  as  inv
 
 
-STYLE['width'] = 400
+STYLE['width'] = 600
 STYLE['height'] = 300
 
 YODA = "https://vignette.wikia.nocookie.net/disney/images/9/95/Master_Yoda.png/revision/latest/scale-to-width-down/258?cb=20161024220430&path-prefix=pt-br";
