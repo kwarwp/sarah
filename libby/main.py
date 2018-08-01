@@ -22,6 +22,9 @@ def games():
     top=200, width=50, height="200px"))
     cinderela.entra(pantano)
     
+    falacinderela = Texto(pantano, "Me tira daqui! Socorro! Estou perdida!")
+    cinderela.vai = falacinderela.vai
+    
     pantano.vai()
     
 
