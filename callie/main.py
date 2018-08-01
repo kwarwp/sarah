@@ -31,3 +31,10 @@ def game():
     floresta3.esquerda = castelo
     castelo.esquerda = floresta2
     floresta2.esquerda = floresta
+    
+    
+    
+    floresta.vai()
+    
+    
+game()
