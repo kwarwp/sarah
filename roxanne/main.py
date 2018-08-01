@@ -55,6 +55,12 @@ def game():
     falaalice = Texto(castelo, "Alice saiu do Castelo pois estava preocupada com a demora de Barbie")
     alice.vai = falaalice.vai
     
+    tarzan = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=500, top=400, width=250, height="300px"))
+    alice.entra(floresta)
+    
+    falatarzan = Texto(floresta, "Tarzan em seu caminho pela floresta ajudou as meninas e caminharam para o chá")
+    tarzan.vai = falatarzan.vai
+    
     cha.vai()
     
     
