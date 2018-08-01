@@ -21,4 +21,9 @@ def game():
     floresta3 = Cena(img=FLORESTA)
     cidade = Cena(img=CIDADE)
     pantano = Cena(img=PANTANO)
+    floresta.direita = floresta2
+    floresta2.direita = castelo
+    castelo.direita = floresta3
+    floresta3.direita = cidade
+    cidade.direita = pantano
     
