@@ -35,6 +35,12 @@ def jogo():
     yoda = Elemento(img=YODA, tit="yoda", style=dict(left=50, 
     top=50, width=400, height="400px"))
     yoda.entra(floresta)
+    cinderela = Elemento(img=CINDERELA, tit="cinderela", style=dict(left=50, 
+    top=50, width=400, height="400px"))
+    cinderela.entra(floresta)
+    
+    falacinderela = texto(floresta, " Yoda, vamos tomar um chá?")
+    falayoda = texto(floresta, " Sim, muito obrigado pelo convite.")
     
     floresta.vai() 
     
