@@ -32,7 +32,12 @@ def game():
     tarzan_fogo.esquerda = yoda_acorda
     yoda_acorda.esquerda = cha
     
-    falayoda = Texto(cha, "Onde está Alice?")
+    coringa = Elemento(img=CORINGA,
+    tit="Coringa", style=dict(left=150,
+    top=150, width=50, height="200px"))
+    coringa.entra.(cha)
+    
+    falayoda = Texto(coringa, "Onde está Alice?")
     cha.vai = falayoda.vai
     cha.vai()
 game()    
