@@ -55,7 +55,7 @@ def game():
     barbie.vai = falabarbie.vai    
     
     
-    galera = Elemento(img=GALERA, tit= "Galera do baile",style=dict(left=250, top=100, width=300, height="100px"))
+    galera = Elemento(img=GALERA, tit= "Galera do baile",style=dict(left=250, top=50, width=300, height="100px"))
     galera.entra(castelo)
     
     
