@@ -77,3 +77,10 @@ SyntaxError: invalid syntax
                                                                                                                    ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 01 2018 15:57:27.448 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  cinderela = Elemento(img=CINDERELA, tit="cinderela".style=dict(left=300,
+                                                                                                                  ^
+SyntaxError: invalid syntax
+'''},
