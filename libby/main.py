@@ -9,3 +9,6 @@ CASTELO = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Pa%C3%A7os_
 ALICE = "https://3.bp.blogspot.com/-o7Y78sYGkjY/V6O1G7WysSI/AAAAAAAAMO8/IG0Q7cJKKcYA70fLNINSaLG02t9fQT52QCLcB/s400/ALICE%2B%25283%2529.png"
 FLORESTA = "https://www.viajali.com.br/wp-content/uploads/2017/06/florestas-mais-incriveis-do-mundo-4.jpg"
 def games():
+    pantano = Cena(img=PANTANO)
+    floresta = Cena(img=FLORESTA)
+    castelo = (img=CASTELO)
