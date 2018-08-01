@@ -48,12 +48,12 @@ def game():
     
     homemaranha = Elemento(img=HOMEMARANHA, tit = "Homem Aranha Boyzão", style=dict(left=200, top=100, width=150, height="100px"))
     homemaranha.entra(cidade)
-    falaaranha = Texto(cidade, "Ih, caraca! É nóis! Vou levar a gata.")
+    falaaranha = Texto(cidade, "Ih, caraca! É nóis! Vou levar " + nome)
     homemaranha.vai = falaaranha.vai
     
     barbie = Elemento(img=BARBIE, tit = "Barbie Boladona", style=dict(left=400, bottom=100, width=100, height="100px"))
     barbie.entra(casa)
-    falabarbie = Texto(casa, "More me ligou, aonde será que ele vai me levar?")
+    falabarbie = Texto(casa, NOME +" me ligou, aonde será que ele vai me levar?")
     barbie.vai = falabarbie.vai    
     
     
