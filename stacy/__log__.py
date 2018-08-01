@@ -60,3 +60,10 @@ NameError: name 'texto' is not defined
     falacinderela = texto(floresta, " Yoda, vamos tomar um chá?")
 NameError: name 'texto' is not defined
 '''},
+{'date': 'Thu Aug 02 2018 04:24:02.432 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 48
+  floresta.vai();;;;.ç~;
+                  ^
+SyntaxError: invalid syntax
+'''},
