@@ -19,5 +19,5 @@ Alice = "http1.bp.blogspot.com-sJykitngfbQVk9VANJv_4IAAAAAAAALaQUi9Mw02CRSUs1600
 Yoda = "http://pngimg.com/uploads/starwars/starwars_PNG62.png"
 Fogo = "http://2.bp.blogspot.com/-HOxFQa9iGv8/T6s9kuBLAAI/AAAAAAAAGiw/sjK-EuhC5gE/s1600/fire.png"
 
-
-
+def game():
+    
