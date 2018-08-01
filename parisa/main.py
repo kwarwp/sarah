@@ -21,7 +21,7 @@ FOGO = "http://2.bp.blogspot.com/-HOxFQa9iGv8/T6s9kuBLAAI/AAAAAAAAGiw/sjK-EuhC5g
 CHA = "https://i.imgur.com/TXBPGM9.jpg"
 YODA_ACORDA = "https://i.imgur.com/iG00lnv.png"
 TARZAN = "http://vsbattles.wikia.com/wiki/File:Tarzan.png"
-CORINGA = "
+CORINGA = "https://vignette.wikia.nocookie.net/nikita2010/images/d/d2/Blank.png/revision/latest?cb=20130725195235"
 def game():
     cha = Cena(img=CHA)
     yoda_acorda = Cena(img=YODA_ACORDA)
