@@ -25,7 +25,7 @@ def game():
     casa.direita = cidade
 
 
-    yoda = Elemento(img=YODA, tit="Yoda", Stile=dict(left=250, top=250, width=50, heigth="100px"))
+    yoda = Elemento(img=YODA, tit="Yoda", Style=dict(left=250, top=250, width=50, heigth="50px"))
     yoda.entra(cidade)
     cidade.vai()
 
