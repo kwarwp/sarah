@@ -15,3 +15,10 @@
     Tarzan
 NameError: name 'Tarzan' is not defined
 '''},
+{'date': 'Wed Aug 01 2018 15:45:49.735 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 22
+  TARZAN = "
+            ^
+SyntaxError: EOL while scanning string literal
+'''},
