@@ -20,10 +20,7 @@ def game():
     cha_de_desaniversario.direita = castelo
     castelo.esquerda = cha_de_desaniversario
     cha_de_desaniversario.esquerda = casa_floresta
-    
-    yoda = Elemento(img=YODA,
-    tit="Yoda", style=dict(left=150,
-    top=250, width=50, height"200px"))
+    yoda = Elemento(img=YODA, tit="Yoda", style=dict(left=150, top=250, width=50, height"200px"))
     yoda.entra(casa_floresta)
 
     falayoda = Texto(casa_floresta, "Eu quero bolo")
