@@ -25,6 +25,9 @@ def game():
     top=250, width=50, height="200px"))
     barbie.entra(castelo)
     
+    falabarbie = Texto(castelo, "meu castelo é lindo")
+    barbie.vai = falabarbie.vai
+    
     castelo.vai()
     
     
