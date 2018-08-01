@@ -25,7 +25,7 @@ def game():
     tarzan_casa.entra(casa)
     casa.direita = homemaranha
     homemaranha.direita = castelo
-    homemaranha_castelo.entra(castelo)
+    
     castelo.direita = cinderela
     cinderela.direita = castelo
     castelo.direita = cinderela
@@ -34,6 +34,7 @@ def game():
     
     fala_aranha = Texto(castelo, "Cadê o Venom???")
     homemaranha_castelo.vai = fala_aranha.vai
+    homemaranha_castelo.entra(castelo)
     
     castelo.vai()
     
