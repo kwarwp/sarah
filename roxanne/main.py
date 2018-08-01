@@ -28,6 +28,8 @@ def game():
     alice = Elemento(img=ALICE, tit="ALICE", style=dict(left=500, top=360, width=100, height="200px"))
     alice.entra(cha)
     
+    falaalice = Texto(cha, "Vou reunir meus amigos no final de semana")
+    alice.vai = falaalice.vai
     
     
     cha.vai()
