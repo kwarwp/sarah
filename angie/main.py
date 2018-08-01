@@ -44,7 +44,7 @@ def game():
     yoda.entra(pantano)
     NOME = input("Qual é o seu nome?")
     
-    falayoda = Texto(pantano, "Olá,  " + NOME + " quer ir no baile?" ) #"Sexta-feira... Vou chamar o Homem Aranha pra dar um rolé!")
+    falayoda = Texto(pantano, "Olá,  " + NOME + " quer ir ao baile?" ) #"Sexta-feira... Vou chamar o Homem Aranha pra dar um rolé!")
     yoda.vai =falayoda.vai
     
     homemaranha = Elemento(img=HOMEMARANHA, tit = "Homem Aranha Boyzão", style=dict(left=200, top=100, width=150, height="100px"))
@@ -62,8 +62,6 @@ def game():
     galera.entra(castelo)
     falagalera = Texto(castelo, "Esse é o baile da Gaiola")
     galera.vai = falagalera.vai
-    import wave
-    w = wave.open("http://audiosoundclips.com/wp-content/uploads/2016/01/Dubtrain.mp3","r")
 
     
     pantano.vai()
