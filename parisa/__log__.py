@@ -40,3 +40,10 @@ SyntaxError: EOL while scanning string literal
     yoda.vai = falayoda.vai
 NameError: name 'yoda' is not defined
 '''},
+{'date': 'Wed Aug 01 2018 16:27:03.332 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 38
+  coringa.entra.(cha)
+                 ^
+SyntaxError: invalid syntax
+'''},
