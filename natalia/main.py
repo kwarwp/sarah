@@ -34,25 +34,18 @@ def game():
     pantano = Cena(img=PANTANO)
     casa_2 = Cena(img=CASA_2)
     
-    #tarzan.direita = casa
     tarzan_casa.entra(casa)
-    #casa.direita = homemaranha
     casa.direita = castelo
     homemaranha.direita = castelo
     homemaranha_castelo.entra(castelo)
-    #castelo.direita = cinderela
     castelo.direita = castelo_interior
-    #cinderela.direita = castelo_interior
     homemaranha_susto_castelo.entra(castelo_interior)
     cinderela_susto_castelo.entra(castelo_interior)
     castelo_interior.direita = pantano
     cinderela_correndo.entra(pantano)
-    #castelo_interior.direita = cinderela
-    #cinderela.direita = pantano
     pantano.direita = casa_2
     cinderela_encontro.entra(casa_2)
     tarzan_encontro.entra(casa_2)
-    
     
     fala_tarzan = Texto(casa, "Algo estranho na selva... Preciso investigar!!!")
     tarzan_casa.vai = fala_tarzan.vai
