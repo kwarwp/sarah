@@ -23,7 +23,7 @@ def game():
     
     yoda = Elemento(img=YODA,
     tit="Yoda", style=dict(left=150,
-    top=250, width=50, height"300px"))
+    top=250, width=50, height"200px"))
     yoda.entra(casa_floresta)
 
     falayoda = Texto(casa_floresta, "Eu quero bolo")
