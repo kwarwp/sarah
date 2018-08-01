@@ -31,6 +31,9 @@ def game():
     
     alice= Elemento(img=ALICE, tit="Alice", style=dict(left=400, top=180, width=100, height="200px"))
     alice.entra(cidade)
+    alicefala = Texto(cidade, "Claro que sim. Estou indo! Vou convidar o Homem aranha pra ir comigo")
+    alice.vai = alicefala.vai
+    
     homem_aranha= Elemento(img=HOMEM_ARANHA, tit="Homem_aranha", style=dict(left=15, top=180, width=100, height="200px"))
     homem_aranha.entra(casinha)
     
