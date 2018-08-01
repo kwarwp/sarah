@@ -26,7 +26,11 @@ def jogo():
     floresta2.direita = floresta3
     floresta3.direita = pantano
     pantano.direita = shopping
-    shopping
+    shopping.esquerda = pantano
+    pantano.esquerda = floresta3
+    floresta3.esquerda = floresta2
+    floresta2.esquerda = casa
+    casa.esquerda = floresta
     
     
    
