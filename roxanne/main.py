@@ -20,7 +20,8 @@ def game():
     pantano = Cena(img=PANTANO)
     castelo = Cena(img=CASTELO)
     floresta = Cena(img=FLORESTA)
-    cha.direita = pantano
+    cha.direita = chadois
+    chadois.direita = pantano
     pantano.direita= castelo
     castelo.direita = floresta
     floresta.esquerda = castelo
