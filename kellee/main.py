@@ -23,7 +23,7 @@ def game():
     casa.esquerda = cha
     cha.esquerda = cidade
     
-    yoda = Elemento(img=YODA, tit="Yoda", style=dict(left=200, top=350, width=300, height="200px"))
+    yoda = Elemento(img=YODA, tit="Yoda", style=dict(left=200, top=270, width=300, height="200px"))
     yoda.entra(cidade)
     
     cidade.vai()
