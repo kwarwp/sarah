@@ -13,3 +13,10 @@ SyntaxError: invalid syntax
          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Aug 02 2018 03:44:40.886 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 10
+  MESTRE YODA = "https://1.bp.blogspot.com/-R9novqwzprA/V1LnhAeWayI/AAAAAAAAEuQ/6jOkfjgu6KsauBmAMBGBuWZmRHpkoa8QACLcB/s1600/Yodar.png"
+          ^
+SyntaxError: invalid syntax
+'''},
