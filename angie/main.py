@@ -30,7 +30,9 @@ def game():
     pantano.direita = cidade
     cidade.direita = casa
     casa.direita = castelo
-    castelo.esquerda = pantano
+    castelo.esquerda = casa
+    cidade.direita = pantano
+    casa.direita = cidade
     
     pantano.vai()
 
