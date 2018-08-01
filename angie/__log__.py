@@ -53,3 +53,7 @@ AttributeError: 'str' object has no attribute 'nome$'
                    ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 01 2018 15:14:16.167 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+NameError: <ReferenceError: Invalid left-hand side in assignment>
+'''},
