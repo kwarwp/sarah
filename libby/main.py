@@ -36,7 +36,7 @@ def games():
     top=200, width=50, height="200px"))
     alice.entra(castelo)
     
-    falaalice = Texto(castelo, "")
+    falaalice = Texto(castelo, "Achei vocês! Vamos comemorar?")
     alice.vai = falaalice.vai
     
     pantano.vai()
