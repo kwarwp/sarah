@@ -32,6 +32,10 @@ def jogo():
     floresta2.esquerda = casa
     casa.esquerda = floresta
     
+    floresta.vai() 
+    
+
+jogo()
     
    
    
