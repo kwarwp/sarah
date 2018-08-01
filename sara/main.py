@@ -20,6 +20,9 @@ def game():
     cha.direita = castelo
     castelo.direita = luar
     luar.esquerda = cha
+    
+    cinderela = Elemento (img = CINDERELA, tit="cinderela", style=dict(laft=900,top=80, width=150,height="380px"))
+    cinderela.entra(cha)
     cha.vai()
 
 game()
