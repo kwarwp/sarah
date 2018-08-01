@@ -41,6 +41,9 @@ def game():
     
     yoda = Elemento(img=YODA, tit = "Mestre Yoda", style=dict(left=300, top=100, width=150, height="100px"))
     yoda.entra(pantano)
+    falayoda = Texto(pantano, "Sexta-feira... vou chamar o Homem Aranha pra dar um rolé!")
+    yoda.vai =falayoda.vai
+    
     homemaranha = Elemento(img=HOMEMARANHA, tit = "Homem Aranha Boyzão", style=dict(left=200, top=100, width=150, height="100px"))
     homemaranha.entra(cidade)
     
@@ -48,7 +51,7 @@ def game():
     barbie = Elemento(img=BARBIE, tit = "Barbie Boladona", style=dict(left=400, bottom=100, width=100, height="100px"))
     barbie.entra(casa)
     
-    falabarbie = Texto(casa, "Queria ir a um baile boladão")
+    falabarbie = Texto(casa, "Queria ir a um baile boladão!")
     barbie.vai = falabarbie.vai    
     pantano.vai()
 
