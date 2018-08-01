@@ -11,6 +11,9 @@ CASTELO = "https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Ca
 CINDERELA = "https://2.bp.blogspot.com/--O7PEMf5dgI/V1WAINEMFgI/AAAAAAAAGQg/MLO8j1u-iJEhPyuXEEVZ8hksqAfPTAYNQCLcB/s1600/cinderella-transp.png"
 PANTANO = "https://vignette.wikia.nocookie.net/starwars/images/f/f0/InYouMustGo-TCGCS.png/revision/latest?cb=20141218063223"
 
+TARZAN['width'] = 100
+TARZAN['height'] = 100
+
 def game():
     tarzan = Cena(img=TARZAN)
     casa = Cena(img=CASA)
