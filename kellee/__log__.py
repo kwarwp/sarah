@@ -53,3 +53,10 @@ NameError: name 'casa' is not defined
     cha.direita = casa
 NameError: name 'casa' is not defined
 '''},
+{'date': 'Wed Aug 01 2018 15:50:28.963 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  def game()
+             ^
+SyntaxError: invalid syntax
+'''},
