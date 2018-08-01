@@ -26,4 +26,8 @@ def game():
     castelo.direita = floresta3
     floresta3.direita = cidade
     cidade.direita = pantano
-    
+    pantano.esquerda = cidade
+    cidade.esquerda = floresta3
+    floresta3.esquerda = castelo
+    castelo.esquerda = floresta2
+    floresta2.esquerda = floresta
