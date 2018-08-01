@@ -1,7 +1,7 @@
 # sarah.grace.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE 
 from _spy.vitollino.main import INVENTARIO as inv
-
+from _spy.vitollino.main import Musica
 STYLE['width'] = 900
 
 
@@ -39,6 +39,8 @@ def game():
     homem_aranha.entra(casinha)
     homem_aranhafala = Texto(casinha, "Será um prazer acompanhar vcs nesse chá delícia!")
     homem_aranha.vai = homem_aranhafala.vai
+    
+    Musica(http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=43543)
     
    
     mesa_de_cha.vai()
