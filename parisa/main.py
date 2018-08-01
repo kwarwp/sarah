@@ -20,6 +20,7 @@ YODA = "http://pngimg.com/uploads/starwars/starwars_PNG62.png"
 FOGO = "http://2.bp.blogspot.com/-HOxFQa9iGv8/T6s9kuBLAAI/AAAAAAAAGiw/sjK-EuhC5gE/s1600/fire.png"
 CHA = "https://i.imgur.com/TXBPGM9.jpg"
 TARZAN = "
+YODA_ACORDA = "https://i.imgur.com/iG00lnv.png"
 
 def game():
     cha = Cena(img=CHA)
