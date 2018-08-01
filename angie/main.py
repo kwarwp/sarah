@@ -9,6 +9,7 @@
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO  as  inv
 
+
 STYLE['width'] = 700
 
 YODA = "https://vignette.wikia.nocookie.net/disney/images/9/95/Master_Yoda.png/revision/latest/scale-to-width-down/258?cb=20161024220430&path-prefix=pt-br";
@@ -61,7 +62,9 @@ def game():
     galera.entra(castelo)
     falagalera = Texto(castelo, "Esse é o baile da Gaiola")
     galera.vai = falagalera.vai
-    
+    import wave
+    w = wave.open("http://audiosoundclips.com/wp-content/uploads/2016/01/Dubtrain.mp3","r")
+
     
     pantano.vai()
 
