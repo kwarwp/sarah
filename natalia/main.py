@@ -13,7 +13,7 @@ PANTANO = "https://vignette.wikia.nocookie.net/starwars/images/f/f0/InYouMustGo-
 
 def game():
     tarzan = Cena(img=TARZAN)
-    tarzan_casa = Elemento(img=TARZAN,style=dict(top=200, left=200, width=100, height=100))
+    tarzan_casa = Elemento(img=TARZAN,style=dict(top=200, left=400, width=100, height="100px"))
     casa = Cena(img=CASA)
     homemaranha = Cena(img=HOMEMARANHA)
     castelo = Cena(img=CASTELO)
