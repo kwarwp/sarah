@@ -16,6 +16,7 @@ PANTANO = "https://cdn.xl.thumbs.canstockphoto.com.br/p%C3%A2ntano-ilustra%C3%A7
 
 def game():
     cha = Cena(img=CHA)
+    chadois = Cena(img=CHADOIS)
     pantano = Cena(img=PANTANO)
     castelo = Cena(img=CASTELO)
     floresta = Cena(img=FLORESTA)
@@ -24,7 +25,8 @@ def game():
     castelo.direita = floresta
     floresta.esquerda = castelo
     castelo.esquerda = pantano
-    pantano.esquerda = cha
+    pantano.esquerda = chadois
+    chadois.esquerda = cha
     
     alice = Elemento(img=ALICE, tit="ALICE", style=dict(left=500, top=360, width=100, height="200px"))
     alice.entra(cha)
