@@ -6,6 +6,7 @@ STYLE['width'] = 700
 
 TARZAN = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest/scale-to-width-down/399?cb=20170117061234"
 CASA = "http://pngimg.com/uploads/house/house_PNG50.png"
+CASA_2 = "http://pngimg.com/uploads/house/house_PNG50.png"
 HOMEMARANHA = "http://i.imgur.com/DuuGIgb.png"
 HOMEMARANHA_SUSTO = "https://vignette.wikia.nocookie.net/spiderman/images/9/93/Spidey_4.png/revision/latest?cb=20140816174042"
 CASTELO = "https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Castles-PNG/Pink_Castle_PNG_Clipart_Image.png?m=1507172106"
@@ -29,6 +30,7 @@ def game():
     cinderela_correndo = Elemento(img=CINDERELA,style=dict(top=160, left=180, width="386px", height="424px"))
     cinderela_encontro = Elemento(img=CINDERELA_ENCONTRO,style=dict(top=160, left=180, width="386px", height="424px"))
     pantano = Cena(img=PANTANO)
+    casa_2 = Cena(img=CASA_2)
     
     #tarzan.direita = casa
     tarzan_casa.entra(casa)
@@ -45,8 +47,8 @@ def game():
     cinderela_correndo.entra(pantano)
     #castelo_interior.direita = cinderela
     #cinderela.direita = pantano
-    pantano.direita = casa
-    cinderela_encontro.entra(casa)
+    pantano.direita = casa_2
+    cinderela_encontro.entra(casa_2)
     
     
     fala_tarzan = Texto(casa, "Algo estranho na selva... Preciso investigar!!!")
