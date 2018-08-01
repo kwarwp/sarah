@@ -11,4 +11,4 @@ FLORESTA = "https://www.viajali.com.br/wp-content/uploads/2017/06/florestas-mais
 def games():
     pantano = Cena(img=PANTANO)
     floresta = Cena(img=FLORESTA)
-    castelo = (img=CASTELO)
+    castelo = Cena(img=CASTELO)
