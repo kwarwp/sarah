@@ -1,7 +1,6 @@
 # sarah.courtney.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
-from _spy.vitollino.main import Musica
 
 STYLE['width'] = 700
 
@@ -20,12 +19,7 @@ def game():
     cha_de_desaniversario.direita = castelo
     castelo.esquerda = cha_de_desaniversario
     cha_de_desaniversario.esquerda = casa_floresta
-    yoda = Elemento(img=YODA, tit="Yoda", style=dict(left=150, top=250, width=50, height"200px"))
-    yoda.entra(casa_floresta)
-
-    falayoda = Texto(casa_floresta, "Eu quero bolo")
-    yoda.vai = falayoda.vai    
-
+    
     casa_floresta.vai()
 
 
