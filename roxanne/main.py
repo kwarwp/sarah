@@ -36,7 +36,7 @@ def game():
     alice.vai = falaalice.vai
     
     
-    homem_aranha = Elemento(img=HOMEM_ARANHA, tit="Homem Aranha", style=dict(left=500, top=360, width=200, height="200px"))
+    homem_aranha = Elemento(img=HOMEM_ARANHA, tit="Homem Aranha", style=dict(left=300, top=360, width=200, height="200px"))
     homem_aranha.entra(chadois)
     
     falahomem_aranha = Texto(chadois, "Oba, fui convidado diz o homem aranha")
