@@ -40,7 +40,7 @@ def game():
     homem_aranhafala = Texto(casinha, "Será um prazer acompanhar vcs nesse chá delícia!")
     homem_aranha.vai = homem_aranhafala.vai
     
-    Musica(http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=43543)
+   
     
    
     mesa_de_cha.vai()
