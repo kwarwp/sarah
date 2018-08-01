@@ -29,10 +29,10 @@ def games():
     top=200, width=50, height="200px"))
     barbie.entra(floresta)
     
-    falabarbie = Texto(floresta, "")
+    falabarbie = Texto(floresta, "Calma Cinderela! Já estou indo!")
     barbie.vai = falabarbie.vai
     
-     alice = Elemento(img=ALICE, tit="alice",style=dict(left=300,
+    alice = Elemento(img=ALICE, tit="alice",style=dict(left=300,
     top=200, width=50, height="200px"))
     alice.entra(castelo)
     
