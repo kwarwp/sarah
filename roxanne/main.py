@@ -34,7 +34,6 @@ def game():
     falaalice = Texto(cha, "Vou reunir meus amigos no final de semana")
     alice.vai = falaalice.vai
     
-    cha.vai()
     
     homem_aranha = Elemento(img=HOMEM_ARANHA, tit="Homem Aranha", style=dict(left=500, top=360, width=100, height="200px"))
     homem_aranha.entra(chadois)
@@ -43,7 +42,7 @@ def game():
     homem_aranha.vai = falahomem_aranha.vai
     
     
-    chadois.vai()
+    cha.vai()
     
     
 game()
