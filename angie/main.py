@@ -29,12 +29,11 @@ def game():
     
     yoda = Elemento(img=YODA, tit = "Mestre Yoda", style=dict(left=300, top=100, width=150, height="100px"))
     yoda.entra(pantano)
-   
-   homemaranha = Elemento(img=HOMEMARANHA, tit = "Homem Aranha Boyzão", style=dict(left=200, top=100, width=150, height="100px"))
-   homemaranha.entra(cidade)
-   
-   barbie = Elemento(img=BARBIE, tit = "Barbie Boladona", style=dict(left=400, bottom=100, width=100, height="100px"))
-   barbie.entra(casa)
+    homemaranha = Elemento(img=HOMEMARANHA, tit = "Homem Aranha Boyzão", style=dict(left=200, top=100, width=150, height="100px"))
+    homemaranha.entra(cidade)
+    
+    barbie = Elemento(img=BARBIE, tit = "Barbie Boladona", style=dict(left=400, bottom=100, width=100, height="100px"))
+    barbie.entra(casa)
     
     pantano.direita = cidade
     cidade.direita = casa
