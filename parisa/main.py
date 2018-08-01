@@ -35,7 +35,7 @@ def game():
     coringa = Elemento(img=CORINGA,
     tit="Coringa", style=dict(left=150,
     top=150, width=50, height="200px"))
-    coringa.entra.(cha)
+    coringa.entra(cha)
     
     falayoda = Texto(coringa, "Onde está Alice?")
     cha.vai = falayoda.vai
