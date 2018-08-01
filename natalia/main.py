@@ -30,6 +30,6 @@ def game():
     cinderela.direita = pantano
     pantano.direita = tarzan
     
-    casa.vai()
+    tarzan.vai()
     
 game()
