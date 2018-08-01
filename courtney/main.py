@@ -21,3 +21,6 @@ def game():
     cha_de_desarniversario.esquerda = casa_floresta
     
     casa_floresta.vai()
+
+
+game()
