@@ -23,6 +23,9 @@ def game():
     
     cinderela = Elemento (img = CINDERELA, tit="cinderela", style=dict(laft=900,top=80, width=150,height="380px"))
     cinderela.entra(cha)
+    
+    falacinderela = Texto(cha, "vamos tomar um chá Alice")
+    cinderela.vai = falacinderela.vai
     cha.vai()
 
 game()
