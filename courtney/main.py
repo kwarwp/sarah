@@ -1,6 +1,7 @@
 # sarah.courtney.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
+from _spy.vitollino.main import Musica
 
 STYLE['width'] = 700
 
@@ -19,6 +20,8 @@ def game():
     cha_de_desaniversario.direita = castelo
     castelo.esquerda = cha_de_desaniversario
     cha_de_desaniversario.esquerda = casa_floresta
+    
+    
     
     casa_floresta.vai()
 
