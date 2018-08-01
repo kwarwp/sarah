@@ -35,18 +35,18 @@ def game():
     barbie = Elemento(img=BARBIE, tit="Barbie", style=dict(left=300, top=200, width=100, height="200px"))
     barbie.entra(floresta)
     
-    falabarbie = Texto(floresta, "quero encontrar o Homem Aranha?")
+    falabarbie = Texto(floresta, "quero encontrar o Homem Aranha")
     barbie.vai = falabarbie.vai
     
     cinderela = Elemento(img=CINDERELA, tit="Cinderela", style=dict(left=300, top=200, width=100, height="200px"))
     cinderela.entra(floresta2)
     
-    falacinderela = Texto(floresta2, "não sei onde está o Homem Aranha?")
+    falacinderela = Texto(floresta2, "não sei onde está o Homem Aranha")
     cinderela.vai = falacinderela.vai
     
     floresta.vai()
     
-    homemaranha = Elemento(img=HOMEMARANHA, tit="Homemaranha", style=dict(left=300, top=200, width=100, height="200px"))
+    homemaranha = Elemento(img=HOMEMARANHA, tit="Homemaranha", style=dict(left=200, top=50, width=100, height="200px"))
     homemaranha.entra(castelo)
     
     falahomemaranha = Texto(castelo, "onde estão essas mulheres?")
