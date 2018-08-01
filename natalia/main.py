@@ -12,6 +12,7 @@ CASTELO = "https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Ca
 CASTELO_INTERIOR = "http://www.willpearson.co.uk/wp-content/images/studio-blog/windsor_castle_001.jpg"
 CINDERELA = "https://2.bp.blogspot.com/--O7PEMf5dgI/V1WAINEMFgI/AAAAAAAAGQg/MLO8j1u-iJEhPyuXEEVZ8hksqAfPTAYNQCLcB/s1600/cinderella-transp.png"
 CINDERELA_SUSTO = "https://www.disneyclips.com/imagesnewb3/images/clipcindyshoe.gif"
+CINDERELA_ENCONTRO = "https://www.disneyclips.com/imagesnewb3/images/cinderella_stairs2.gif"
 PANTANO = "https://vignette.wikia.nocookie.net/starwars/images/f/f0/InYouMustGo-TCGCS.png/revision/latest?cb=20141218063223"
 
 def game():
@@ -26,6 +27,7 @@ def game():
     cinderela = Cena(img=CINDERELA)
     cinderela_susto_castelo = Elemento(img=CINDERELA_SUSTO,style=dict(top=100, left=150, width="153px", height="275px"))
     cinderela_correndo = Elemento(img=CINDERELA,style=dict(top=160, left=180, width="386px", height="424px"))
+    cinderela_encontro = Elemento(img=CINDERELA_ENCONTRO,style=dict(top=160, left=180, width="386px", height="424px"))
     pantano = Cena(img=PANTANO)
     
     #tarzan.direita = casa
@@ -43,7 +45,9 @@ def game():
     cinderela_correndo.entra(pantano)
     #castelo_interior.direita = cinderela
     #cinderela.direita = pantano
-    #pantano.direita = tarzan
+    pantano.direita = casa
+    cinderela_encontro.entra(casa)
+    
     
     fala_tarzan = Texto(casa, "Algo estranho na selva... Preciso investigar!!!")
     tarzan_casa.vai = fala_tarzan.vai
