@@ -47,7 +47,7 @@ def game():
     homemaranha = Elemento(img=HOMEMARANHA, tit = "Homem Aranha Boyzão", style=dict(left=200, top=100, width=150, height="100px"))
     homemaranha.entra(cidade)
     falaaranha = Texto(cidade, "Ih, caraca! É nóis! Vou levar a gata.")
-    
+    homemaranha.vai = falaaranha.vai
     
     barbie = Elemento(img=BARBIE, tit = "Barbie Boladona", style=dict(left=400, bottom=100, width=100, height="100px"))
     barbie.entra(casa)
@@ -55,7 +55,7 @@ def game():
     barbie.vai = falabarbie.vai    
     
     
-    galera = Elemento(img=GALERA, tit= "Galera do baile",style=dict(left=250, bottom=300, width=300, height="100px"))
+    galera = Elemento(img=GALERA, tit= "Galera do baile",style=dict(left=250, top=300, width=300, height="100px"))
     galera.entra(castelo)
     
     
