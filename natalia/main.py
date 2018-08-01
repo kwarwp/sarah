@@ -5,6 +5,7 @@ from _spy.vitollino.main import INVENTARIO as inv
 STYLE['width'] = 700
 
 TARZAN = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest/scale-to-width-down/399?cb=20170117061234"
+TARZAN_ENCONTRO = "https://vignette.wikia.nocookie.net/disney/images/e/e2/Tarzan_Character.png/revision/latest?cb=20180126232838"
 CASA = "http://pngimg.com/uploads/house/house_PNG50.png"
 CASA_2 = "http://pngimg.com/uploads/house/house_PNG50.png"
 HOMEMARANHA = "http://i.imgur.com/DuuGIgb.png"
@@ -19,6 +20,7 @@ PANTANO = "https://vignette.wikia.nocookie.net/starwars/images/f/f0/InYouMustGo-
 def game():
     tarzan = Cena(img=TARZAN)
     tarzan_casa = Elemento(img=TARZAN,style=dict(top=220, left=420, width="120px", height="120px"))
+    tarzan_encontro = Elemento(img=TARZAN_ENCONTRO,style=dict(top=240, left=450, width="100px", height="123px"))
     casa = Cena(img=CASA)
     homemaranha = Cena(img=HOMEMARANHA)
     homemaranha_castelo = Elemento(img=HOMEMARANHA,style=dict(top=192, left=315, width="90px", height="90px"))
@@ -49,6 +51,7 @@ def game():
     #cinderela.direita = pantano
     pantano.direita = casa_2
     cinderela_encontro.entra(casa_2)
+    tarzan_encontro.entra(casa_2)
     
     
     fala_tarzan = Texto(casa, "Algo estranho na selva... Preciso investigar!!!")
