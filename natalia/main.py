@@ -12,22 +12,23 @@ CINDERELA = "https://2.bp.blogspot.com/--O7PEMf5dgI/V1WAINEMFgI/AAAAAAAAGQg/MLO8
 PANTANO = "https://vignette.wikia.nocookie.net/starwars/images/f/f0/InYouMustGo-TCGCS.png/revision/latest?cb=20141218063223"
 
 def game():
-    tarzan = Elemento(img=TARZAN,style=dict(width=100, height=100))
+    tarzan = Cena(img=TARZAN)
+    tarzan_casa = Elemento(img=TARZAN,style=dict(width=100, height=100))
     casa = Cena(img=CASA)
     homemaranha = Cena(img=HOMEMARANHA)
     castelo = Cena(img=CASTELO)
     cinderela = Cena(img=CINDERELA)
     pantano = Cena(img=PANTANO)
     
-    tarzan.entra(casa)
-    #tarzan.direita = casa
+    tarzan.direita = casa
+    tarzan_casa.entra(casa)
     casa.direita = homemaranha
     homemaranha.direita = castelo
     castelo.direita = cinderela
     cinderela.direita = castelo
     castelo.direita = cinderela
     cinderela.direita = pantano
-    #pantano.direita = tarzan
+    pantano.direita = tarzan
     
     casa.vai()
     
