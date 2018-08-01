@@ -4,7 +4,7 @@ from _spy.vitollino.main import INVENTARIO as inv
 
 STYLE['width'] = 700
 
-YODA = "https://banner2.kisspng.com/20180402/ugw/kisspng-pegasus-seiya-leo-aiolia-sagittarius-aiolos-saint-sagittarius-5ac247203f1446.0231978215226816322584.jpg"
+YODA = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYFs1T5_Zf4OnmWgEMMNWyACpoc93fgxe4fHT8TZq5a30UskO2"
 CASA_FLORESTA = "https://png.pngtree.com/element_origin_min_pic/16/07/17/17578b4cfbd4e93.jpg"
 CINDERELA = "https://png.pngtree.com/element_pic/00/16/09/0957d1be2423435.jpg" 
 CHA_DE_DESANIVERSARIO = "http://images1.fanpop.com/images/photos/1700000/Alice-in-Wonderland-1951-alice-in-wonderland-1758796-500-372.jpg"
