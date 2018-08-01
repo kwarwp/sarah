@@ -20,7 +20,12 @@ def game():
     casa = Cena(img=CASA)
     cidade.direita = cha
     cha.direita = casa
-    casa.direita = cidade
+    casa.esquerda = cha
+    cha.esquerda = cidade
+    
+    yoda = Elemento(img=YODA, tit="YODA", style=dict(left=300, top=100, width=50, height="200px")
+    
     cidade.vai()
+    
     
 game()
