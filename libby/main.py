@@ -15,7 +15,7 @@ def games():
     floresta = Cena(img=FLORESTA)
     castelo = Cena(img=CASTELO)
     pantano.direita = floresta
-    floresta.direta = castelo
+    floresta.direita = castelo
     castelo.esquerda = pantano
     
     pantano.vai()
