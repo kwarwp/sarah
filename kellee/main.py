@@ -31,14 +31,15 @@ def game():
     
     alice = Elemento(img=ALICE, tit="Alice", style=dict(left=250, top=100, width=200, height="200px"))
     alice.entra(cha)
-    
-    yoda.entra(cha)
+    yodasegundo = yoda
+    yodasegundo.entra(cha)
     falaalice = Texto(cha, "Cadê seu sabre de luz, yoda?")
     alice.vai = falaalice.vai
     falayodasegundo = Texto(cha, "Yoda sabre de luz no tempo perder!")
     yoda.vai = falayodasegundo.vai
-    
-    yoda.entra(casa)
+
+    yodaterceiro = yoda
+    yodaterceiro.entra(casa)
     tarzan = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=400, top=50, width=200, height="200px"))
     tarzan.entra(casa)
     
