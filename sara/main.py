@@ -3,6 +3,7 @@
 como estava muito tarde o homem aranha deu uma carona para as duas. todos tomaram um susto ao encontrar o yoda na floresta."""
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
+from _spy.vitollino.main import Musica 
 
 STYLE['width'] = 700
 CINDERELA = "http://imagensemoldes.com.br/wp-content/uploads/2018/04/Imagem-de-Personagens-Cinderela-29-PNG-300x283.png"
