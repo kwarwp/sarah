@@ -21,5 +21,6 @@ CASTELO = "https://speaknowblog.files.wordpress.com/2011/10/cimg22931.jpg"
 
 
 def game():
-    
+    pantano = Cena(img=PANTANO)
+    yoda = ElementoTexto = "
  
