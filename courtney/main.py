@@ -18,7 +18,7 @@ def game():
     casa_floresta.direita = cha_de_desaniversario
     cha_de_desaniversario.direita = castelo
     castelo.esquerda = cha_de_desaniversario
-    cha_de_desarniversario.esquerda = casa_floresta
+    cha_de_desaniversario.esquerda = casa_floresta
     
     casa_floresta.vai()
 
