@@ -6,3 +6,10 @@
                                                                                                        ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 01 2018 16:22:29.505 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 43
+  Musica(http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=43543)
+              ^
+SyntaxError: invalid syntax
+'''},
