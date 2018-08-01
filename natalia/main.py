@@ -36,7 +36,7 @@ def game():
     cinderela.direita = castelo_interior
     #homemaranha_susto_castelo.entra(castelo_interior)
     #cinderela_susto_castelo.entra(castelo_interior)
-    #castelo_interior.direita = cinderela
+    castelo_interior.direita = cinderela
     #cinderela.direita = pantano
     #pantano.direita = tarzan
     
