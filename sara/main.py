@@ -19,7 +19,7 @@ def game():
     luar = Cena(img = LUAR)
     cha.direita = castelo
     castelo.direita = luar
-    luar.esquerda = castelo
+    luar.esquerda = cha
     cha.vai()
 
 game()
