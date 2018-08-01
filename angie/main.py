@@ -28,8 +28,8 @@ def game():
     castelo = Cena(img=CASTELO)
     
     yoda = Elemento(img=YODA, tit = "Mestre Yoda", style=dict(left=300, bottom=100, width=2, height="100px"))
-    homemaranha = Elemento(img=HOMEMARANHA, tit = "Homem Aranha Boyzão", style=dict(left=200, bottom=100, width=2, height="100px"))
-    barbie = Elemento(img=BARBIE, tit = "Mestre Yoda", style=dict(left=400, bottom=100, width=2, height="100px"))
+   # homemaranha = Elemento(img=HOMEMARANHA, tit = "Homem Aranha Boyzão", style=dict(left=200, bottom=100, width=2, height="100px"))
+   # barbie = Elemento(img=BARBIE, tit = "Mestre Yoda", style=dict(left=400, bottom=100, width=2, height="100px"))
     yoda.entra(pantano)
     
     
