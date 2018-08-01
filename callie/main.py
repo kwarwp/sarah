@@ -46,7 +46,7 @@ def game():
     
     floresta.vai()
     
-    homemaranha = Elemento(img=HOMEMARANHA, tit="Homemaranha", style=dict(left=200, top=50, width=100, height="200px"))
+    homemaranha = Elemento(img=HOMEMARANHA, tit="Homemaranha", style=dict(left=400, top=50, width=100, height="200px"))
     homemaranha.entra(castelo)
     
     falahomemaranha = Texto(castelo, "onde estão essas mulheres?")
