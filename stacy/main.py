@@ -35,7 +35,7 @@ def jogo():
     yoda = Elemento(img=YODA, tit="yoda", style=dict(left=50, 
     top=50, width=400, height="100px"))
     yoda.entra(floresta)
-    cinderela = Elemento(img=CINDERELA, tit="cinderela", style=dict(left=50, 
+    cinderela = Elemento(img=CINDERELA, tit="cinderela", style=dict(left=400, 
     top=300, width=100, height="100px"))
     cinderela.entra(floresta)
     
