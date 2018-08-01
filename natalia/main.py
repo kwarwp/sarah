@@ -28,9 +28,10 @@ def game():
     cinderela_correndo = Elemento(img=CINDERELA,style=dict(top=160, left=180, width="386px", height="424px"))
     pantano = Cena(img=PANTANO)
     
-    tarzan.direita = casa
+    #tarzan.direita = casa
     tarzan_casa.entra(casa)
-    casa.direita = homemaranha
+    #casa.direita = homemaranha
+    casa.direita = castelo
     homemaranha.direita = castelo
     homemaranha_castelo.entra(castelo)
     castelo.direita = cinderela
@@ -49,6 +50,6 @@ def game():
     fala_aranha = Texto(castelo, "Cadê o Venom???")
     homemaranha_castelo.vai = fala_aranha.vai
     
-    tarzan.vai()
+    casa.vai()
     
 game()
