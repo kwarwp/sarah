@@ -10,3 +10,8 @@ CINDERELA = "https://png.pngtree.com/element_pic/00/16/09/0957d1be2423435.jpg"
 CHA_DE_DESANIVERSARIO = "http://images1.fanpop.com/images/photos/1700000/Alice-in-Wonderland-1951-alice-in-wonderland-1758796-500-372.jpg"
 HOMEM_ARANHA = "https://cdn1.mundodastribos.com/wp-admin/uploads/2011/07/homemaranha11.jpg"
 CASTELO = "https://i0.wp.com/melprandatoemorlando.com.br/wp-content/uploads/2015/04/IMG_0311-copy.jpg"
+
+def game():
+    casa_floresta = Cena(img=CASA_FLORESTA)
+    cha_de_desaniversario = Cena(img=CHA_DE_DESANIVERSARIO)
+    castelo = Cena(img=CAASTELO)
