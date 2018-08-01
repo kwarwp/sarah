@@ -43,7 +43,7 @@ def game():
     homem_aranha.vai = falahomem_aranha.vai
     
     
-    barbie = Elemento(img=BARBIE, tit="Barbie", style=dict(left=400, top=300, width=200, height="200px"))
+    barbie = Elemento(img=BARBIE, tit="Barbie", style=dict(left=400, top=300, width=300, height="300px"))
     barbie.entra(pantano)
     
     falabarbie = Texto(pantano, "Enquanto isso Barbie se perdeu no Pantano.")
