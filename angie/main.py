@@ -42,7 +42,8 @@ def game():
     yoda = Elemento(img=YODA, tit = "DJ Yoda", style=dict(left=300, top=100, width=150, height="100px"))
     yoda.entra(pantano)
     NOME = input("Qual é o seu nome?")
-    falayoda = Texto(pantano, "Olá,  " + NOME) #"Sexta-feira... Vou chamar o Homem Aranha pra dar um rolé!")
+    
+    falayoda = Texto(pantano, "Olá,  " + NOME + "quer ir no baile?" ) #"Sexta-feira... Vou chamar o Homem Aranha pra dar um rolé!")
     yoda.vai =falayoda.vai
     
     homemaranha = Elemento(img=HOMEMARANHA, tit = "Homem Aranha Boyzão", style=dict(left=200, top=100, width=150, height="100px"))
