@@ -32,13 +32,13 @@ def game():
     castelo.esquerda = floresta2
     floresta2.esquerda = floresta
     
-    barbie = Elemento(img=BARBIE, tit="Barbie", style=dict(left=300, top=100, width=100, height="200px"))
+    barbie = Elemento(img=BARBIE, tit="Barbie", style=dict(left=300, top=50, width=100, height="200px"))
     barbie.entra(floresta)
     
     falabarbie = Texto(floresta, "quero encontrar o Ken")
     barbie.vai = falabarbie.vai
     
-    cinderela = Elemento(img=CINDERELA, tit="Cinderela", style=dict(left=300, top=100, width=100, height="200px"))
+    cinderela = Elemento(img=CINDERELA, tit="Cinderela", style=dict(left=300, top=50, width=100, height="200px"))
     cinderela.entra(floresta2)
     
     falacinderela = Texto(floresta2, "não sei onde está o Ken")
