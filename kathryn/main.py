@@ -21,8 +21,8 @@ def game():
     floresta.esquerda = castelo
     
     barbie = Elemento(img=BARBIE, 
-    tit="Barbie", style=dict(left=300, 
-    top=100, width=50, height="200px"))
+    tit="Barbie", style=dict(left=150, 
+    top=250, width=50, height="200px"))
     barbie.entra(castelo)
     
     castelo.vai()
