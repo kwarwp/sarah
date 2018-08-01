@@ -28,7 +28,7 @@ def game():
     cinderela = Cena(img=CINDERELA)
     cinderela_susto_castelo = Elemento(img=CINDERELA_SUSTO,style=dict(top=100, left=150, width="153px", height="275px"))
     cinderela_correndo = Elemento(img=CINDERELA,style=dict(top=160, left=180, width="386px", height="424px"))
-    cinderela_encontro = Elemento(img=CINDERELA_ENCONTRO,style=dict(top=120, left=320, width="100px", height="123px"))
+    cinderela_encontro = Elemento(img=CINDERELA_ENCONTRO,style=dict(top=320, left=320, width="100px", height="123px"))
     pantano = Cena(img=PANTANO)
     casa_2 = Cena(img=CASA_2)
     
