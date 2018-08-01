@@ -15,4 +15,10 @@ CHA = "https://conteudo.imguol.com.br/c/noticias/b4/2017/09/29/cha-com-alice-min
 CASA = "https://www.plantapronta.com.br/projetos/140/01.jpg"
 
 def game():
+    cidade = Cena(img=CIDADE)
+    #cha = Cena(img=CHA)
+    #casa = Cena(img=CASA)
+    #cidade.direita = cha
+    cidade.vai()
     
+game()
