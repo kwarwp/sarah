@@ -21,5 +21,7 @@ def game():
     cha.direita = pantano
     pantano.direita= castelo
     castelo.direita = floresta
-    floresta.esquerda = cha
+    floresta.esquerda = castelo
+    castelo.esquerda = pantano
+    pantano.esquerda = cha
     
