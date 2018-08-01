@@ -36,7 +36,7 @@ def jogo():
     top=50, width=400, height="100px"))
     yoda.entra(floresta)
     cinderela = Elemento(img=CINDERELA, tit="cinderela", style=dict(left=50, 
-    top=50, width=100, height="100px"))
+    top=300, width=100, height="100px"))
     cinderela.entra(floresta)
     
     falacinderela = Texto(floresta, " Yoda, vamos tomar um chá?")
