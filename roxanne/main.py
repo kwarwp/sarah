@@ -11,7 +11,7 @@ ALICE = "https://3.bp.blogspot.com/-o7Y78sYGkjY/V6O1G7WysSI/AAAAAAAAMO8/IG0Q7cJK
 FLORESTA = "https://img.elo7.com.br/product/zoom/12F2BAA/painel-de-festa-floresta-3-painel-em-tecido.jpg"
 CASTELO = "http://www.imagenspng.com.br/wp-content/uploads/2015/04/branca-de-neve-cute-castelo-03.png"
 CHA = "https://img.elo7.com.br/product/zoom/1825D14/painel-para-festa-paisagem-festa-jardim-encantado-luxo.jpg"
-CHA2 = "https://img.elo7.com.br/product/zoom/1825D14/painel-para-festa-paisagem-festa-jardim-encantado-luxo.jpg"
+CHADOIS = "https://img.elo7.com.br/product/zoom/1825D14/painel-para-festa-paisagem-festa-jardim-encantado-luxo.jpg"
 PANTANO = "https://cdn.xl.thumbs.canstockphoto.com.br/p%C3%A2ntano-ilustra%C3%A7%C3%A3o_csp15440725.jpg"
 
 def game():
@@ -34,9 +34,9 @@ def game():
     
     
     homem_aranha = Elemento(img=HOMEM_ARANHA, tit="Homem Aranha", style=dict(left=500, top=360, width=100, height="200px"))
-    homem_aranha.entra(cha2)
+    homem_aranha.entra(chadois)
     
-    falahomem_aranha = Texto(cha2, "Oba, fui convidado diz o homem aranha")
+    falahomem_aranha = Texto(chadois, "Oba, fui convidado diz o homem aranha")
     homem_aranha.vai = falahomem_aranha.vai
     
     
