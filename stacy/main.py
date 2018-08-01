@@ -45,7 +45,7 @@ def jogo():
     falayoda = Texto(floresta, " Sim, muito obrigado pelo convite.")
     yoda.vai = falayoda.vai
     
-    floresta.vai();;;;.ç~;
+    floresta.vai()
     
 
 jogo()
