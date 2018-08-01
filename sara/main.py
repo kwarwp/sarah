@@ -33,6 +33,12 @@ def game():
     falabarbie = Texto(castelo, "A Cinderela já esta me esperando")
     barbie.vai = falabarbie.vai
     
+    homem = Elemento (img = HOMEM,  tit="homem", style=dict(laft=900,top=150, width=150,height="380px"))
+    homem.entra(luar)
+    
+    falahomem = Texto(luar, "A Cinderela já esta me esperando")
+    homem.vai = falahomem.vai
+    
     cha.vai()
 
 game()
