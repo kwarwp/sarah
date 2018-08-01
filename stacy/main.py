@@ -32,6 +32,10 @@ def jogo():
     floresta2.esquerda = casa
     casa.esquerda = floresta
     
+    mestreyoda = Elemento(img=MESTREYODA, tit="mestreyoda", style=dict(left=300, 
+    top=100, width=50, height="200px"))
+    mestreyoda.entra(floresta)
+    
     floresta.vai() 
     
 
