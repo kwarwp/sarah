@@ -187,3 +187,10 @@ SyntaxError: invalid syntax
                                                                                                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 01 2018 16:36:43.600 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  yoda = Elemento(img = YODA,
+                                                                                                 ^
+SyntaxError: invalid syntax
+'''},
