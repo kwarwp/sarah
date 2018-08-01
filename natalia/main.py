@@ -20,7 +20,7 @@ PANTANO = "https://vignette.wikia.nocookie.net/starwars/images/f/f0/InYouMustGo-
 def game():
     tarzan = Cena(img=TARZAN)
     tarzan_casa = Elemento(img=TARZAN,style=dict(top=220, left=420, width="120px", height="120px"))
-    tarzan_encontro = Elemento(img=TARZAN_ENCONTRO,style=dict(top=230, left=480, width="62px", height="128px"))
+    tarzan_encontro = Elemento(img=TARZAN_ENCONTRO,style=dict(top=230, left=470, width="62px", height="128px"))
     casa = Cena(img=CASA)
     homemaranha = Cena(img=HOMEMARANHA)
     homemaranha_castelo = Elemento(img=HOMEMARANHA,style=dict(top=192, left=315, width="90px", height="90px"))
@@ -69,6 +69,6 @@ def game():
     fala_aranha = Texto(castelo, "Cadê o Venom???")
     homemaranha_castelo.vai = fala_aranha.vai
     
-    casa_2.vai()
+    casa.vai()
     
 game()
