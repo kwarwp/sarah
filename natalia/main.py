@@ -12,3 +12,9 @@ CINDERELA = "https://2.bp.blogspot.com/--O7PEMf5dgI/V1WAINEMFgI/AAAAAAAAGQg/MLO8
 PANTANO = "https://vignette.wikia.nocookie.net/starwars/images/f/f0/InYouMustGo-TCGCS.png/revision/latest?cb=20141218063223"
 
 def game():
+	tarzan = Cena(img=TARZAN)
+	casa = Cena(img=CASA)
+	homemaranha = Cena(img=HOMEMARANHA)
+	castelo = Cena(img=CASTELO)
+	cinderela = Cena(img=CINDERELA)
+	pantano = Cena(img=PANTANO)
