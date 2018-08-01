@@ -25,6 +25,13 @@ def games():
     falacinderela = Texto(pantano, "Me tira daqui! Socorro! Estou perdida!")
     cinderela.vai = falacinderela.vai
     
+    barbie = Elemento(img=BARBIE, tit="barbie",style=dict(left=300,
+    top=200, width=50, height="200px"))
+    barbie.entra(floresta)
+    
+    falabarbie = Texto(floresta, "Me tira daqui! Socorro! Estou perdida!")
+    cinderela.vai = falacinderela.vai
+    
     pantano.vai()
     
 
