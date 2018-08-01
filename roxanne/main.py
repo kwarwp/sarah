@@ -2,7 +2,7 @@
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
 
-STYLE['widht']=700
+STYLE['width']=700
 
 BARBIE = "http://4.bp.blogspot.com/-XNMtYvCUcRc/UdNuuEBNjaI/AAAAAAAA5O8/GgshXcDS_vQ/s480/barbie1-758236+(1).png"
 TARZAN = "http://imagens.us/gifs/tarzan/Tarzan%20(22).png"
