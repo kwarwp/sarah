@@ -144,3 +144,10 @@ NameError: name 'texto' is not defined
     falacinderela =texto(cha, " vamos tomar um chá Alice")
 NameError: name 'texto' is not defined
 '''},
+{'date': 'Wed Aug 01 2018 16:17:12.490 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 36
+  homem = Elemento (img = HOMEM, BARBIE, CINDERELA tit="homem", style=dict(laft=900,top=150, width=150,height="380px"))
+                                       ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
