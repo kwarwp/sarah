@@ -21,5 +21,5 @@ def games():
     pantano.vai()
     
 
-game()
+games()
     
