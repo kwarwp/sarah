@@ -24,7 +24,7 @@ def game():
     castelo = Cena(img=CASTELO)
     castelo_interior = Cena(img=CASTELO_INTERIOR)
     cinderela = Cena(img=CINDERELA)
-    cinderela_susto_castelo = Elemento(img=CINDERELA_SUSTO,style=dict(top=230, left=150, width="150px", height="150px"))
+    cinderela_susto_castelo = Elemento(img=CINDERELA_SUSTO,style=dict(top=220, left=150, width="153px", height="275px"))
     pantano = Cena(img=PANTANO)
     
     tarzan.direita = casa
