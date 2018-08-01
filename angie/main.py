@@ -39,7 +39,7 @@ def game():
     casa.esquerda = cidade
     cidade.esquerda = pantano
     
-    yoda = Elemento(img=YODA, tit = "Mestre Yoda", style=dict(left=300, top=100, width=150, height="100px"))
+    yoda = Elemento(img=YODA, tit = "DJ Yoda", style=dict(left=300, top=100, width=150, height="100px"))
     yoda.entra(pantano)
     falayoda = Texto(pantano, "Sexta-feira... vou chamar o Homem Aranha pra dar um rolé!")
     yoda.vai =falayoda.vai
