@@ -32,7 +32,7 @@ def game():
     castelo.esquerda = floresta2
     floresta2.esquerda = floresta
     
-    barbie = Elemento(img=BARBIE, tit="Barbie", style=dict(left=300, top=100, width=50, height="200px"))
+    barbie = Elemento(img=BARBIE, tit="Barbie", style=dict(left=300, top=100, width=50, height="500px"))
     barbie.entra(floresta)
     
     floresta.vai()
