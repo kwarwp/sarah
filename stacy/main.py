@@ -5,7 +5,7 @@ from _spy.vitollino.main import INVENTARIO as inv
 STYLE['width'] = 700
 
 YODA = "http://3.bp.blogspot.com/-bJt5MBHwLAY/UxorHfGu7yI/AAAAAAAAJoQ/ISkePDNKDdc/s1600/Yoda+Do+or+do+not.png"
-HOMEM ARANHA = "https://opcaonews.com.br/wp-content/uploads/2017/07/homem-aranha.png"
+HOMEMARANHA = "https://opcaonews.com.br/wp-content/uploads/2017/07/homem-aranha.png"
 CINDERELA = "https://vignette.wikia.nocookie.net/disneyprincess/images/f/fd/Cinderellabarefoot.png/revision/latest?cb=20180601173051"
 BARBIE = "http://3.bp.blogspot.com/_XVXE0u_nSqY/S-r2RF-K84I/AAAAAAAAApY/m-cVhub0zm4/s1600/Untitled+2.png"
 TARZAN = "https://vignette.wikia.nocookie.net/projectcrusade/images/f/fd/Tarzan-clip-art-july03.gif/revision/latest?cb=20160903224123"
