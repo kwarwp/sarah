@@ -236,3 +236,10 @@ SyntaxError: invalid syntax
                                                                                     ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 01 2018 16:43:40.528 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  yoda = Elemento(style=dict(left=150, top=250, width=50, height"200px")
+                                                                 ^
+SyntaxError: invalid syntax
+'''},
