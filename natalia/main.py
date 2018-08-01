@@ -51,6 +51,9 @@ def game():
     susto_cinderela = Texto(castelo_interior, "Ai, meu Deus!!! Quem é você???")
     cinderela_susto_castelo.vai = susto_cinderela.vai
     
+    fuga_cinderela = Texto(pantano, "Preciso me esconder... Já sei! Na casa do pântano!!!")
+    cinderela_correndo.vai = fuga_cinderela.vai
+    
     fala_aranha = Texto(castelo, "Cadê o Venom???")
     homemaranha_castelo.vai = fala_aranha.vai
     
