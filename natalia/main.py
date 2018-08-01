@@ -20,7 +20,7 @@ def game():
     casa = Cena(img=CASA)
     homemaranha = Cena(img=HOMEMARANHA)
     homemaranha_castelo = Elemento(img=HOMEMARANHA,style=dict(top=192, left=315, width="90px", height="90px"))
-    homemaranha_susto_castelo = Elemento(img=HOMEMARANHA_SUSTO,style=dict(top=100, left=300, width="421px", height="360px"))
+    homemaranha_susto_castelo = Elemento(img=HOMEMARANHA_SUSTO,style=dict(top=100, left=300, width="211px", height="180px"))
     castelo = Cena(img=CASTELO)
     castelo_interior = Cena(img=CASTELO_INTERIOR)
     cinderela = Cena(img=CINDERELA)
