@@ -32,8 +32,10 @@ def game():
     homemaranha = Elemento(img=HOMEMARANHA, tit = "Homem Aranha Boyzão", style=dict(left=200, top=100, width=150, height="100px"))
     homemaranha.entra(cidade)
     
+    
     barbie = Elemento(img=BARBIE, tit = "Barbie Boladona", style=dict(left=400, bottom=100, width=100, height="100px"))
     barbie.entra(casa)
+    falabarbie=Texto(casa, "Queria ir p'a um baile boladão")
     
     pantano.direita = cidade
     cidade.direita = casa
