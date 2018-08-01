@@ -7,5 +7,5 @@ from _spy.vitollino.main import INVENTARIO as inv
 STYLE['width'] = 700
 
 Cinderela = "http://imagensemoldes.com.br/wp-content/uploads/2018/04/Imagem-de-Personagens-Cinderela-29-PNG-300x283.png"
-Barbie = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToVBC9Exm78NHPYFN7ei-JePOk4vtEEAQTifsFJ2qjlY-oHJY-qw"
+Barbie = "http://pngimg.com/uploads/barbie/barbie_PNG42.png"
 Home
