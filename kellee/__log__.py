@@ -60,3 +60,10 @@ NameError: name 'casa' is not defined
              ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 01 2018 15:56:12.518 GMt-0300 (Horário Padrão da Argentina) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  yoda = Elemento(img=YODA, tit="YODA", style=dict(left=300, top=100, width=50, height="200px")
+                                                                                                          ^
+SyntaxError: invalid syntax
+'''},
