@@ -54,5 +54,7 @@ def game():
     homemaranha.vai = falahomemaranha.vai
     
     Musica("http://audiosoundclips.com/wp-content/uploads/2012/01/Bird.mp3")
+    floresta.vai
+    
     
 game()
