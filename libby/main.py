@@ -18,7 +18,7 @@ def games():
     floresta.direita = castelo
     castelo.esquerda = pantano
     
-    cinderela = Elemento(img=CINDERELA, tit="cinderela".style=dict(left=300,
+    cinderela = Elemento(img=CINDERELA, tit="cinderela",style=dict(left=300,
     top=100, width=50, height="200px"))
     cinderela.entra(pantano)
     
