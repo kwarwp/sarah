@@ -60,6 +60,9 @@ def game():
     fuga_cinderela = Texto(pantano, "Preciso me esconder... Já sei! Na casa do pântano!!!")
     cinderela_correndo.vai = fuga_cinderela.vai
     
+    encontro_cinderela = Texto(casa_2, "Ohhh... Tarzan!!??")
+    cinderela_encontro.vai = encontro_cinderela.vai
+    
     fala_aranha = Texto(castelo, "Cadê o Venom???")
     homemaranha_castelo.vai = fala_aranha.vai
     
