@@ -13,4 +13,18 @@ CIDADE = "http://amelhorcoisadaminhavida.com.br/wp-content/uploads/2018/01/Cidad
 CASINHA = "https://media-cdn.tripadvisor.com/media/photo-s/04/61/33/29/casinha-amarela.jpg"
 
 def game():
-
+    mesa_de_cha = Cena(img=MESA_DE_CHA)
+    floresta = Cena(img=FLORESTA)
+    cidade = Cena(img=CIDADE)
+    casinha = Cena(img=CASINHA)
+    mesa_de_cha.direita = floresta
+    floresta.direita = cidade
+    cidade.direita = casinha
+    casinha.esquerda = cidade
+    cidade.esquerda = floresta
+    floresta.esquerda = mesa_de_cha
+    
+    mesa_de_cha.vai()
+    
+    
+game()
