@@ -19,21 +19,21 @@ def games():
     castelo.esquerda = pantano
     
     cinderela = Elemento(img=CINDERELA, tit="cinderela",style=dict(left=300,
-    top=200, width=50, height="200px"))
+    top=200, width=100, height="200px"))
     cinderela.entra(pantano)
     
     falacinderela = Texto(pantano, "Me tira daqui! Socorro! Estou perdida!")
     cinderela.vai = falacinderela.vai
     
     barbie = Elemento(img=BARBIE, tit="barbie",style=dict(left=300,
-    top=200, width=50, height="200px"))
+    top=200, width=100, height="200px"))
     barbie.entra(floresta)
     
     falabarbie = Texto(floresta, "Calma Cinderela! Já estou indo!")
     barbie.vai = falabarbie.vai
     
     alice = Elemento(img=ALICE, tit="alice",style=dict(left=300,
-    top=200, width=50, height="200px"))
+    top=200, width=100, height="200px"))
     alice.entra(castelo)
     
     falaalice = Texto(castelo, "Achei vocês! Vamos comemorar?")
