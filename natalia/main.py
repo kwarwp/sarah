@@ -16,6 +16,7 @@ def game():
     tarzan_casa = Elemento(img=TARZAN,style=dict(top=220, left=420, width="120px", height="120px"))
     casa = Cena(img=CASA)
     homemaranha = Cena(img=HOMEMARANHA)
+    homemaranha_castelo = Elemento(img=HOMEMARANHA,style=dict(top=220, left=420, width="120px", height="120px"))
     castelo = Cena(img=CASTELO)
     cinderela = Cena(img=CINDERELA)
     pantano = Cena(img=PANTANO)
@@ -24,6 +25,7 @@ def game():
     tarzan_casa.entra(casa)
     casa.direita = homemaranha
     homemaranha.direita = castelo
+    homemaranha_castelo.entra(castelo)
     castelo.direita = cinderela
     cinderela.direita = castelo
     castelo.direita = cinderela
