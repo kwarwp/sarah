@@ -19,7 +19,7 @@ CIDADE = "https://i2.wp.com/cbncuritiba.com/wp-content/uploads/2017/05/por-do-so
 def game():
     cidade = Cena(img=CIDADE)
     cha = Cena(img=CHA)
-    Casa = Cena(img=CASA)
+    casa = Cena(img=CASA)
     cidade.direita = cha
     cha.direita = casa
     casa.direita = cidade
