@@ -151,3 +151,10 @@ NameError: name 'texto' is not defined
                                        ^
 SyntaxError: non-keyword arg after keyword arg
 '''},
+{'date': 'Fri Aug 31 2018 16:57:26.612 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 5
+  from _spy.vpython.main import 
+                                ^
+SyntaxError: trailing comma not allowed without surrounding parentheses
+'''},
