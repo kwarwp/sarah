@@ -1,50 +1,45 @@
-# sarah.sara.main.py
-"""A cinderela saiu para tomar um chá. Barbie iria encontrar com a Cinderela mas ainda estava em seu castelo.
-como estava muito tarde o homem aranha deu uma carona para as duas. todos tomaram um susto ao encontrar o yoda na floresta."""
+# sarah.sara.main.py# kesha.sara.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
-from _spy.vitollino.main import INVENTARIO as inv
-from _spy.vitollino.main import Musica 
-
-STYLE['width'] = 700
-CINDERELA = "http://imagensemoldes.com.br/wp-content/uploads/2018/04/Imagem-de-Personagens-Cinderela-29-PNG-300x283.png"
-BARBIE = "http://pngimg.com/uploads/barbie/barbie_PNG42.png"
-HOMEM = "http://3.bp.blogspot.com/-uv54jlZoqfU/T9eUlpul_CI/AAAAAAAAFos/NCmWuK9X9Nw/s1600/Homem-Aranha-png-Queroimagem.com+%284%29.png"
-YODA = "http://pngimg.com/uploads/starwars/starwars_PNG40.png"
-CHA = "http://iphotochannel.com.br/wp-content/uploads/2016/07/iphoto-como-fazer-um-cenario-barato-pra-fotografia-2.jpg"
-LUAR = "https://st3.depositphotos.com/2739581/16638/v/600/depositphotos_166383456-stock-video-scary-autumn-forest-at-moonlight.jpg"
-CASTELO = "https://vignette.wikia.nocookie.net/reinodesolaria/images/1/15/Castelo_real_branco.jpg/revision/latest?cb=20120906132605&path-prefix=pt-br"
-
-def game():
-    cha = Cena(img = CHA)
-    castelo = Cena(img = CASTELO)
-    luar = Cena(img = LUAR)
-    cha.direita = castelo
-    castelo.direita = luar
-    luar.esquerda = cha
-    
-    cinderela = Elemento (img = CINDERELA, tit="cinderela", style=dict(laft=900,top=80, width=150,height="380px"))
-    cinderela.entra(cha)
-    
-    falacinderela = Texto(cha, "vamos tomar um chá Alice")
-    cinderela.vai = falacinderela.vai
-    
-    barbie = Elemento (img = BARBIE, tit="barbie", style=dict(laft=900,top=150, width=150,height="380px"))
-    barbie.entra(castelo)
-    
-    falabarbie = Texto(castelo, "A Cinderela já esta me esperando")
-    barbie.vai = falabarbie.vai
-    
-    homem = Elemento (img = HOMEM,  tit="homem", style=dict(laft=900,top=70, width=150,height="380px"))
-    homem.entra(luar)
-    
-    falahomem = Texto(luar, "Oi meninas")
-    homem.vai = falahomem.vai
-    
-    cha.vai()
-
-game()
+from browser import html, document, alert, doc
+#doc[glowscript] = html.H1('XXXXXXXXX -------------- XXXXXXXXXXX')
+from _spy.vpython.main import 
+doc['pydiv'].html=''
+_gs=Glow('pydiv')
+scene=canvas()
+scene.background= color.white
+scene.width = 800
+scene.height = 600
 
 
 
+bloco = dict(color=color.blue)
+simetria1=box(pos=(4.2, -2, 0), size=(1,1,1) , bloco)
+simetria2=box(pos=(1.8, 1.6, 0), size=(1,1,1) , bloco)
+simetria = [box(pos=(3, x(1.2)-2, 0), size=(1,1,1), bloco) for x in range(4)]
+pts = [simetria1, simetria2]+simetria
+sup = compound(pts, pos=vec(2,0,0), axis=vec(4,0,-1))
 
-    
+
+STYLE[width]=800
+STYLE[height]=600px
+FUNDO = httpsi.imgur.comEzWk7Jl.jpg 
+QAZUL = httpsi.imgur.comlWDGIvc.jpg
+QVERMELHO = httpsi.imgur.comK0YpYsi.png
+QVERDE = httpsi.imgur.comhd3ofzP.png
+
+class Tabuleiro
+
+    def __init__ (self)
+            def remover_carta(carta)
+                self.lista_de_cartas.append(carta)
+                carta.elt.style.left = Pilha_cartas_left
+                carta.elt.style.top = Pilha_cartas_top
+                self.tabuleiro[carta.img.tabuleiro][casa.img.casa].img.ocupado = 0
+                carta.img.tabuleiro = null
+                carta.img.casa = null
+            
+            def move_carta(casa)
+                casa_destino = casa.target.id
+                tabuleiro_target = casa.target.tabuleiro
+                #if(casa.target.ocupado == 0)
+                 #   if((tabuleiro_target == esquerda and self.tabuleiro[direita][casa_destino].img.ocupado == 1)
