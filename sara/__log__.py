@@ -158,3 +158,10 @@ SyntaxError: non-keyword arg after keyword arg
                                 ^
 SyntaxError: trailing comma not allowed without surrounding parentheses
 '''},
+{'date': 'Mon Oct 07 2019 11:39:04.727 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 5
+  from _spy.vpython.main import 
+                                ^
+SyntaxError: trailing comma not allowed without surrounding parentheses
+'''},
