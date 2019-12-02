@@ -1,8 +1,8 @@
 # sarah.roxanne.main.py
-# margaret_hamilton.roxanne.main.py
 #Autor: Isabel Hortencia Garnica
-from _spy.vitollino.main import Cena, Elemento, INVENTARIO, STYLE, Musica
+from _spy.vitollino.main import Cena, Elemento, INVENTARIO, STYLE
 from texto.main import Texto
+
 STYLE.update(width=900, height=650)
 CENAINICIO = "https://i.imgur.com/dWbSaHk.jpg"
 PREDIO= "https://i.imgur.com/vL9kR9Y.png"
@@ -23,9 +23,12 @@ CONFETES = "https://i.imgur.com/SIV1CTm.png"
 CORDA="https://i.imgur.com/cUf3qAv.png"
 
 #INICIO DO JOGO
-Class gameInicio():
+class gameInicio:
     def __init__(self):
-        gameInicio = Cena(
+        gameInicio = Cena(CENAINICIO)
+        gameInicio.vai()
+        self.play = Elemento(PLAY, x=300, y=100,w=180,h=180, cena=gameInicio)
+        play.vai()
 
 
 class Elevador:
