@@ -29,7 +29,7 @@ class gameInicio:
     def __init__(self):
         gameInicio = Cena(CENAINICIO)
         gameInicio.vai()
-        self.play = Elemento(PLAY, x=300, y=100,w=180,h=180, cena=gameInicio)
+        self.play = Elemento(PLAY, x=400, y=400,w=180,h=180, cena=gameInicio)
         play.vai()
 """
 
