@@ -4,7 +4,7 @@ from _spy.vitollino.main import Cena, Elemento, INVENTARIO, STYLE
 from texto.main import Texto
 
 STYLE.update(width=900, height=650)
-CENAINICIO = "https://i.imgur.com/dWbSaHk.jpg"
+CENAINICIO = "https://i.imgur.com/3qdowNm.jpg"
 PREDIO= "https://i.imgur.com/vL9kR9Y.png"
 CESTA = "https://i.imgur.com/qtw6IoO.png"
 DOG = "https://i.imgur.com/ZQ9SSMz.png"
