@@ -3,7 +3,7 @@
 from _spy.vitollino.main import Cena, Elemento, INVENTARIO, STYLE
 from texto.main import Texto
 
-STYLE.update(width=900, height=650)
+STYLE.update(width=1150, height=600)
 CENAINICIO = "https://i.imgur.com/3qdowNm.jpg"
 PREDIO= "https://i.imgur.com/vL9kR9Y.png"
 CESTA = "https://i.imgur.com/qtw6IoO.png"
@@ -21,7 +21,8 @@ FOGOESTREITO = "https://i.imgur.com/N93X5s1.png"
 ROLDADA = "https://i.imgur.com/FvD7tcb.png"
 CONFETES = "https://i.imgur.com/SIV1CTm.png"
 CORDA="https://i.imgur.com/cUf3qAv.png"
-
+#STYLE ["width"] = 1150
+#STYLE ["height"] = "600px"
 #INICIO DO JOGO
 class gameInicio:
     def __init__(self):
