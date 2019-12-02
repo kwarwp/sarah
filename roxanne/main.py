@@ -29,7 +29,7 @@ class gameInicio:
         gameInicio.vai()
         self.play = Elemento(PLAY, x=300, y=100,w=180,h=180, cena=gameInicio)
         play.vai()
-
+"""
 
 class Elevador:
     def __init__(self):
@@ -91,6 +91,8 @@ class Elevador:
         
 Elevador()
 
+"""
+gameInicio()
 """
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
