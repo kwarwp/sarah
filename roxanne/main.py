@@ -21,7 +21,7 @@ FOGOESTREITO = "https://i.imgur.com/N93X5s1.png"
 ROLDADA = "https://i.imgur.com/FvD7tcb.png"
 CONFETES = "https://i.imgur.com/SIV1CTm.png"
 CORDA="https://i.imgur.com/cUf3qAv.png"
-STYLE ["width"] = 1150
+STYLE ["width"] = 1250
 STYLE ["height"] = "600px"
 
 #INICIO DO JOGO
@@ -29,7 +29,7 @@ class gameInicio:
     def __init__(self):
         gameInicio = Cena(CENAINICIO)
         gameInicio.vai()
-        self.play = Elemento(PLAY, x=400, y=400,w=180,h=180, cena=gameInicio)
+        self.play = Elemento(PLAY, x=500, y=500,w=150,h=180, cena=gameInicio)
         play.vai()
 """
 
