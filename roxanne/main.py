@@ -31,10 +31,11 @@ class gameInicio:
         gameInicio.vai()
         self.play = Elemento(PLAY, x=560, y=470,w=180,h=120, cena=gameInicio)
         play.vai()
+        dia = Cena(FUNDODIA)
+        gameInico.direita = dia
+        dia.vai()
 """
-
-class Elevador:
-    def __init__(self):
+    def elevador():
         dia = Cena(FUNDODIA)
         dia.vai()
         self.predio = Elemento(PREDIO, x=300, y=100,w=180,h=180, cena=dia, vai=self.sobe_desce))
@@ -90,11 +91,10 @@ class Elevador:
         self.na_cesta="nada"
         self.doggie.elt.style.left = 350
         INVENTARIO.score(casa="doggie", carta=self.na_cesta, move="sai", ponto=0, valor=0, _level=1)
-        
-Elevador()
-
-"""
+"""       
 gameInicio()
+
+
 """
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
