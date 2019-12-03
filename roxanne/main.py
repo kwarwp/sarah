@@ -27,6 +27,7 @@ CORDA="https://i.imgur.com/cUf3qAv.png"
 CORDANO= "https://i.imgur.com/qyAtbdK.png"
 BILHETE = "https://i.imgur.com/p9SteRs.png"
 LOGO = "https://i.imgur.com/JflnamW.png"
+BOTAO = "https://i.imgur.com/kTocYiF.png"
 STYLE ["width"] = 1320
 STYLE ["height"] = "600px"
 # Musica("https://raw.githubusercontent.com/kwarwp/anita/master/bensound-creativeminds.mp3")
