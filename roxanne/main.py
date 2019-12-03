@@ -26,14 +26,18 @@ CONFETES = "https://i.imgur.com/SIV1CTm.png"
 CORDA="https://i.imgur.com/cUf3qAv.png"
 CORDANO= "https://i.imgur.com/qyAtbdK.png"
 BILHETE = "https://i.imgur.com/p9SteRs.png"
+LOGO = "https://i.imgur.com/JflnamW.png"
 STYLE ["width"] = 1320
 STYLE ["height"] = "600px"
 # Musica("https://raw.githubusercontent.com/kwarwp/anita/master/bensound-creativeminds.mp3")
 #INICIO DO JOGO
 class gameInicio:
     def __init__(self):
+        
         gameInicio = Cena(CENAINICIO)
         gameInicio.vai()
+        dark= Elemento("",style=dict(width="1345px",height="600px",backgroundColor="black",opacity=0.5),cena=gameInicio)
+        self.logotipo = Elemento(LOGO, x=570, y=470,w=180,h=120, cena=gameInicio)
         self.play = Elemento(PLAY, x=570, y=470,w=180,h=120, cena=gameInicio, vai = self.mostradia)
     
     def mostradia(self,ev=0):
