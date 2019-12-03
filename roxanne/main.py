@@ -31,7 +31,7 @@ class gameInicio:
     def __init__(self):
         gameInicio = Cena(CENAINICIO)
         gameInicio.vai()
-        self.play = Elemento(PLAY, x=560, y=470,w=180,h=120, cena=gameInicio, vai = self.mostradia)
+        self.play = Elemento(PLAY, x=570, y=470,w=180,h=120, cena=gameInicio, vai = self.mostradia)
     
     def mostradia(self,ev=0):
         fake = Cena()
@@ -48,15 +48,20 @@ class gameInicio:
         self.boy = Elemento(MENINOSAD, x=600, y=60,w=250,h=150, cena=todos, vai=self.sobe_desce)
         self.doggie = Elemento(DOG, x=540, y=130,w=100,h=70, cena=todos, vai=self.sobe_desce)
         self.linhaA = Elemento(CORDA, x=520, y=-12,w=270,h=150, cena=todos, vai=self.sobe_desce)
-        self.roldA = Elemento(ROLDANA, x=580, y=33,w=380,h=180, cena=todos, vai=self.sobe_desce)
-        self.roldB = Elemento(ROLDANA, x=340, y=33,w=380,h=180, cena=todos, vai=self.sobe_desce)
-        self.cestinhaA = Elemento(CESTA, x=440, y=160,w=120,h=120, cena=todos, vai=self.sobe_desce)
-        self.cestinhaB = Elemento(CESTA, x=740, y=350,w=120,h=120, cena=todos, vai=self.sobe_desce)
-        self.linhaB = Elemento(CORDA, x=100, y=100,w=320,h=200, cena=todos, vai=self.sobe_desce)
+        
+        #Roldana, corda e cesta 
+        
+        self.linhaB = Elemento(CORDA, x=445, y=80,w=150,h=140, cena=todos, vai=self.sobe_desce)
         self.linhaB.elt.style.transform = "rotate(90deg)"
-        self.linhaC = Elemento(CORDA, x=440, y=100,w=320,h=200, cena=todos, vai=self.sobe_desce)
-        self.linhaC.elt.style.transform = "rotate(90deg)"
+        self.roldB = Elemento(ROLDANA, x=340, y=33,w=380,h=180, cena=todos, vai=self.sobe_desce)
+        self.cestinhaA = Elemento(CESTA, x=420, y=220,w=180,h=120, cena=todos, vai=self.sobe_desce)
        
+       #Roldana, corda e cesta 
+        
+        self.linhaC = Elemento(CORDA, x=660, y=130,w=280,h=180, cena=todos, vai=self.sobe_desce)
+        self.linhaC.elt.style.transform = "rotate(90deg)"
+        self.roldA = Elemento(ROLDANA, x=580, y=33,w=380,h=180, cena=todos, vai=self.sobe_desce)
+        self.cestinhaB = Elemento(CESTA, x=700, y=350,w=180,h=120, cena=todos, vai=self.sobe_desce)
         
         # Musica("https://raw.githubusercontent.com/kwarwp/anita/master/bensound-creativeminds.mp3")
         self._sobe_desce = self._desce
