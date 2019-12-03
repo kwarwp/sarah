@@ -21,6 +21,7 @@ FOGOESTREITO = "https://i.imgur.com/N93X5s1.png"
 ROLDADA = "https://i.imgur.com/FvD7tcb.png"
 CONFETES = "https://i.imgur.com/SIV1CTm.png"
 CORDA="https://i.imgur.com/cUf3qAv.png"
+BILHETE = "https://i.imgur.com/w40vNjx.png"
 STYLE ["width"] = 1320
 STYLE ["height"] = "600px"
 
@@ -31,9 +32,11 @@ class gameInicio:
         gameInicio.vai()
         self.play = Elemento(PLAY, x=560, y=470,w=180,h=120, cena=gameInicio, vai = self.mostradia)
     
-    def mostradia(self):
+    def mostradia(self,ev=0):
         dia = Cena(FUNDODIA)
         dia.vai()
+        self.bil = Elemento(BILHETE, x=300, y=470,w=300,h=400, cena=dia)
+    
 """
     def elevador():
         dia = Cena(FUNDODIA)
