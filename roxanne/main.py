@@ -43,8 +43,8 @@ class gameInicio:
         todos = Cena(FUNDODIA)
         todos.vai()
         self.predio = Elemento(PREDIO, x=350, y=180,w=600,h=300, cena=todos, vai=self.sobe_desce)
-        self.girl = Elemento(IRMASAD, x=400, y=140,w=120,h=80, cena=todos, vai=self.sobe_desce)
-        self.boy = Elemento(MENINOSAD, x=200, y=140,w=120,h=80, cena=todos, vai=self.sobe_desce)
+        self.girl = Elemento(IRMASAD, x=550, y=140,w=120,h=80, cena=todos, vai=self.sobe_desce)
+        self.boy = Elemento(MENINOSAD, x=650, y=140,w=120,h=80, cena=todos, vai=self.sobe_desce)
         self.doggie = Elemento(DOG, x=200, y=60,w=60,h=40, cena=todos, vai=self.sobe_desce)
         
         
