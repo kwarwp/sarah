@@ -58,8 +58,8 @@ class gameInicio:
         todos.vai()
         self.musica = Musica(TRACK)
         self.musica.sound.pause()
-        self.musA = Elemento(SOMA, x=-1200, y=500,w=80,h=80, cena=todos, vai=self.toca)
-        self.musB = Elemento(SOMB, x=1200, y=500,w=80,h=80, cena=todos, vai=self.pause)
+        self.musA = Elemento(SOMA, x=1200, y=500,w=80,h=80, cena=todos, vai=self.toca)
+        self.musB = Elemento(SOMB, x=-1200, y=500,w=80,h=80, cena=todos, vai=self.pause)
         
         self.predio = Elemento(PREDIO, x=350, y=180,w=600,h=300, cena=todos, vai=self.sobe_desce)
         self.girl = Elemento(IRMASAD, x=550, y=80,w=200,h=130, cena=todos, vai=self.sobe_desce)
