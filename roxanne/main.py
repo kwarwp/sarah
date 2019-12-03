@@ -28,11 +28,10 @@ STYLE ["height"] = "600px"
 class gameInicio:
     def __init__(self):
         gameInicio = Cena(CENAINICIO)
-        gameInicio.vai()
-        self.play = Elemento(PLAY, x=560, y=470,w=180,h=120, cena=gameInicio)
-        play.vai()
         dia = Cena(FUNDODIA)
-        gameInico.direita = dia
+        gameInicio.vai()
+        self.play = Elemento(PLAY, x=560, y=470,w=180,h=120, cena=gameInicio, self.direita = dia)
+        play.vai()
         dia.vai()
 """
     def elevador():
