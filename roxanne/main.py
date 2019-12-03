@@ -42,8 +42,11 @@ class gameInicio:
     def elevador(self, ev=0):
         todos = Cena(FUNDODIA)
         todos.vai()
-        self.predio = Elemento(PREDIO, x=400, y=120,w=600,h=400, cena=todos, vai=self.sobe_desce)
-        #predio.vai()
+        self.predio = Elemento(PREDIO, x=350, y=120,w=600,h=400, cena=todos, vai=self.sobe_desce)
+        self.girl = Elemento(IRMASAD, x=200, y=120,w=60,h=40, cena=todos, vai=self.sobe_desce)
+        self.boy = Elemento(MENINOSAD, x=200, y=80,w=60,h=40, cena=todos, vai=self.sobe_desce)
+        self.doggie = Elemento(DOG, x=200, y=60,w=60,h=40, cena=todos, vai=self.sobe_desce)
+        
         
         # Musica("https://raw.githubusercontent.com/kwarwp/anita/master/bensound-creativeminds.mp3")
         self._sobe_desce = self._desce
