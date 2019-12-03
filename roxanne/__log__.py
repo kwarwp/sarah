@@ -745,3 +745,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Dec 03 2019 15:16:59.347 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 56
+  self.linhaB = Elemento(CORDA, x=340, y=100,w=200,h=180, cena=todos, vai=self.sobe_desce)
+  ^
+IndentationError: unexpected indent
+'''},
