@@ -40,6 +40,7 @@ class gameInicio:
         dark= Elemento("",style=dict(width="1345px",height="600px",backgroundColor="black",opacity=0.7),cena=gameInicio)
         self.logotipo = Elemento(LOGO, x=370, y=30,w=600,h=420, cena=gameInicio)
         self.play = Elemento(PLAY, x=570, y=470,w=180,h=120, cena=gameInicio, vai = self.mostradia)
+        
     
     def mostradia(self,ev=0):
         fake = Cena()
@@ -47,6 +48,7 @@ class gameInicio:
         dia = Cena(FUNDODIA, direita=fake )
         dia.vai()
         self.bil = Elemento(BILHETE, x=200, y=20,w=900,h=600, cena=dia, vai = self.elevador)
+        self.boton = Elemento(BOTAO, x=670, y=470,w=80,h=80, cena=dia, vai = self.elevador)
     
     def toca(self, ev=0):
         self.musica.sound.play()
