@@ -752,3 +752,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Dec 03 2019 17:47:25.169 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 46
+  def toca(self, ev=0)
+                       ^
+SyntaxError: invalid syntax
+'''},
