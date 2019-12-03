@@ -4,6 +4,7 @@ from _spy.vitollino.main import Cena, Elemento, INVENTARIO, STYLE, Musica
 from texto.main import Texto
 
 #STYLE.update(width=1300, height=500)
+TRACK = "https://raw.githubusercontent.com/kwarwp/anita/master/bensound-creativeminds.mp3"
 CENAINICIO = "https://i.imgur.com/3qdowNm.jpg"
 PREDIO= "https://i.imgur.com/vL9kR9Y.png"
 CESTA = "https://i.imgur.com/qtw6IoO.png"
