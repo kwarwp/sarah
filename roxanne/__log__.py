@@ -613,3 +613,10 @@ NameError: name 'play' is not defined
     play.vai()
 NameError: name 'play' is not defined
 '''},
+{'date': 'Mon Dec 02 2019 23:01:32.386 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 33
+  self.play = Elemento(PLAY, x=560, y=470,w=180,h=120, cena=gameInicio, self.direita = dia)
+                                                                                     ^
+SyntaxError: keyword can't be an expression
+'''},
