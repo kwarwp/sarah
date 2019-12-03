@@ -26,7 +26,7 @@ CORDANO= "https://i.imgur.com/qyAtbdK.png"
 BILHETE = "https://i.imgur.com/DANjfy8.png"
 STYLE ["width"] = 1320
 STYLE ["height"] = "600px"
-
+# Musica("https://raw.githubusercontent.com/kwarwp/anita/master/bensound-creativeminds.mp3")
 #INICIO DO JOGO
 class gameInicio:
     def __init__(self):
@@ -45,38 +45,36 @@ class gameInicio:
         todos = Cena(FUNDODIA)
         todos.vai()
         self.musica = Musica(TRACK)
+        
         self.predio = Elemento(PREDIO, x=350, y=180,w=600,h=300, cena=todos, vai=self.sobe_desce)
         self.girl = Elemento(IRMASAD, x=550, y=80,w=200,h=130, cena=todos, vai=self.sobe_desce)
         self.boy = Elemento(MENINOSAD, x=600, y=60,w=250,h=150, cena=todos, vai=self.sobe_desce)
         self.linhaA = Elemento(CORDA, x=520, y=-12,w=270,h=150, cena=todos, vai=self.sobe_desce)
         
-        #Roldana, corda e cesta 
-        
+        #Roldana, corda e cesta       
         self.linhaB = Elemento(CORDA, x=445, y=80,w=150,h=140, cena=todos, vai=self.sobe_desce)
         self.linhaB.elt.style.transform = "rotate(90deg)"
         self.roldB = Elemento(ROLDANA, x=340, y=33,w=380,h=180, cena=todos, vai=self.sobe_desce)
         self.cestinhaA = Elemento(CESTA, x=420, y=220,w=180,h=120, cena=todos, vai=self.sobe_desce)
        
-       #Roldana, corda e cesta 
-        
+        #Roldana, corda e cesta        
         self.linhaC = Elemento(CORDA, x=660, y=130,w=280,h=180, cena=todos, vai=self.sobe_desce)
         self.linhaC.elt.style.transform = "rotate(90deg)"
         self.roldA = Elemento(ROLDANA, x=580, y=33,w=380,h=180, cena=todos, vai=self.sobe_desce)
         self.cestinhaB = Elemento(CESTA, x=700, y=350,w=180,h=120, cena=todos, vai=self.sobe_desce)
         
-        # Musica("https://raw.githubusercontent.com/kwarwp/anita/master/bensound-creativeminds.mp3")
+        
         self._sobe_desce = self._desce
         self._entra_sai = self._entra
         self._doggie_sobe_desce = lambda *_:None
         self._doggie_desce = lambda *_:None
         self._doggie_sobe = lambda *_:None
         self.na_cesta = "nada"
-        #self.cesta = Elemento(CESTA, x=300, y=100,w=180,h=180, cena=predio, vai=self.sobe_desce)
-        #self.doggie = Elemento(DOG, x=350, y=80, cena=predio, vai=self.entra_sai)
-        
+         
         self.doggie = Elemento(DOG, x=540, y=130,w=100,h=70, cena=todos, vai=self.entra_sai)         
         #INVENTARIO.score(casa="elevador", carta=self.na_cesta, move="desce", ponto=0, valor=0, _level=0)
-               
+    
+    #SIDE A               
     def sobe_desce(self, *_):#*_ serve para criar estados para poder detrminar quando está dentro, fora, sobe, desce
         self.cestinhaA.y = 400
         self._sobe_desce()
@@ -114,6 +112,44 @@ class gameInicio:
         self.na_cesta="nada"
         self.doggie.elt.style.left = 350
         #INVENTARIO.score(casa="doggie", carta=self.na_cesta, move="sai", ponto=0, valor=0, _level=1)
+    
+    #SIDE B 
+    def sobe_desce(self, *_):#*_ serve para criar estados para poder detrminar quando está dentro, fora, sobe, desce
+        self.cestinhaB.y = 400
+        self._sobe_desce()
+        
+    def _desce(self, *_):
+        self._sobe_desce = self._sobe
+        self._doggie_desce()
+        self.cestinhaB.elt.style.top = 400
+        #INVENTARIO.score(casa="elevador", carta=self.na_cesta, move="desce", ponto=0, valor=0, _level=1)
+        
+    def _sobe(self, *_):
+        self._sobe_desce = self._desce
+        self._doggie_sobe()
+        self.cestinhaB.elt.style.top = 220
+        #INVENTARIO.score(casa="elevador", carta=self.na_cesta, move="sobe", ponto=0, valor=0, _level=1)
+        
+    def entra_sai(self, *_):
+        self._entra_sai()
+        
+    def _move_doggie(self, tanto):
+        self.doggie.elt.style.top = tanto
+        
+    def _entra(self, *_): #_ serve para
+        self._entra_sai= self._sai
+        self._doggie_sobe = lambda:self._move_doggie(100)
+        self._doggie_desce = lambda:self._move_doggie(400)
+        self.na_cesta="doggie"
+        self.doggie.elt.style.left = 510
+        #INVENTARIO.score(casa="doggie", carta=self.na_cesta, move="entra", ponto=0, valor=0, _level=1)
+        
+    def _sai(self, *_):
+        self._entra_sai= self._entra
+        self._doggie_sobe = lambda:None
+        self._doggie_desce = lambda:None
+        self.na_cesta="nada"
+        self.doggie.elt.style.left = 350
     
 gameInicio()
 
