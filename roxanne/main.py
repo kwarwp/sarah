@@ -21,7 +21,7 @@ FOGOESTREITO = "https://i.imgur.com/N93X5s1.png"
 ROLDADA = "https://i.imgur.com/FvD7tcb.png"
 CONFETES = "https://i.imgur.com/SIV1CTm.png"
 CORDA="https://i.imgur.com/cUf3qAv.png"
-BILHETE = "https://i.imgur.com/w40vNjx.png"
+BILHETE = "https://i.imgur.com/DANjfy8.png"
 STYLE ["width"] = 1320
 STYLE ["height"] = "600px"
 
