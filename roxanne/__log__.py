@@ -724,3 +724,10 @@ SyntaxError: invalid syntax
                                                                                          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Dec 03 2019 14:54:04.115 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 56
+  self.linhaB.elt.style.rorate = 90deg
+                                    ^
+SyntaxError: invalid syntax
+'''},
