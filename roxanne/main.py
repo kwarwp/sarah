@@ -46,7 +46,7 @@ class gameInicio:
         self.predio = Elemento(PREDIO, x=350, y=180,w=600,h=300, cena=todos, vai=self.sobe_desce)
         self.girl = Elemento(IRMASAD, x=550, y=80,w=200,h=130, cena=todos, vai=self.sobe_desce)
         self.boy = Elemento(MENINOSAD, x=600, y=60,w=250,h=150, cena=todos, vai=self.sobe_desce)
-        self.doggie = Elemento(DOG, x=540, y=130,w=100,h=70, cena=todos, vai=self.sobe_desce)
+        self.doggie = Elemento(DOG, x=540, y=130,w=100,h=70, cena=todos, vai=self.entra_sai)
         self.linhaA = Elemento(CORDA, x=520, y=-12,w=270,h=150, cena=todos, vai=self.sobe_desce)
         
         #Roldana, corda e cesta 
@@ -70,14 +70,12 @@ class gameInicio:
         self._doggie_desce = lambda *_:None
         self._doggie_sobe = lambda *_:None
         self.na_cesta = "nada"
-        self.cesta = Elemento(CESTA, x=300, y=100,w=180,h=180, cena=predio, vai=self.sobe_desce)
-        self.doggie = Elemento(Doggie, x=350, y=80, cena=predio, vai=self.entra_sai)
+        #self.cesta = Elemento(CESTA, x=300, y=100,w=180,h=180, cena=predio, vai=self.sobe_desce)
+        #self.doggie = Elemento(DOG, x=350, y=80, cena=predio, vai=self.entra_sai)
+                    
         INVENTARIO.score(casa="elevador", carta=self.na_cesta, move="desce", ponto=0, valor=0, _level=0)
-        a = Texto(predio, "oi", foi=lambda op="YY": Texto(predio, f"escolheu {op}").vai(), A="ee", B="uu")
-        a.vai()
-        #b = 
-        
-    def sobe_desce(self, *_):
+               
+    def sobe_desce(self, *_):#*_ serve para criar estados para poder detrminar quando está dentro, fora, sobe, desce
         self.cesta.y = 400
         self._sobe_desce()
         
@@ -99,7 +97,7 @@ class gameInicio:
     def _move_doggie(self, tanto):
         self.doggie.elt.style.top = tanto
         
-    def _entra(self, *_):
+    def _entra(self, *_): #_ serve para
         self._entra_sai= self._sai
         self._doggie_sobe = lambda:self._move_doggie(100)
         self._doggie_desce = lambda:self._move_doggie(400)
