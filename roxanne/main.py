@@ -1,6 +1,6 @@
 # sarah.roxanne.main.py
 #Autor: Isabel Hortencia Garnica
-from _spy.vitollino.main import Cena, Elemento, INVENTARIO, STYLE
+from _spy.vitollino.main import Cena, Elemento, INVENTARIO, STYLE, Musica
 from texto.main import Texto
 
 #STYLE.update(width=1300, height=500)
