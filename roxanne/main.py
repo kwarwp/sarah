@@ -18,7 +18,7 @@ FUNDODIA = "https://i.imgur.com/ArB36nt.png"
 FUNDONOITE = "https://i.imgur.com/2Vff3L0.png"
 FOGOLARGO = "https://i.imgur.com/S1AyGFi.png"
 FOGOESTREITO = "https://i.imgur.com/N93X5s1.png"
-ROLDADA = "https://i.imgur.com/FvD7tcb.png"
+ROLDANA = "https://i.imgur.com/FvD7tcb.png"
 CONFETES = "https://i.imgur.com/SIV1CTm.png"
 CORDA="https://i.imgur.com/cUf3qAv.png"
 BILHETE = "https://i.imgur.com/DANjfy8.png"
@@ -43,10 +43,12 @@ class gameInicio:
         todos = Cena(FUNDODIA)
         todos.vai()
         self.predio = Elemento(PREDIO, x=350, y=180,w=600,h=300, cena=todos, vai=self.sobe_desce)
-        self.girl = Elemento(IRMASAD, x=550, y=140,w=120,h=80, cena=todos, vai=self.sobe_desce)
-        self.boy = Elemento(MENINOSAD, x=650, y=140,w=120,h=80, cena=todos, vai=self.sobe_desce)
-        self.doggie = Elemento(DOG, x=200, y=60,w=60,h=40, cena=todos, vai=self.sobe_desce)
-        
+        self.girl = Elemento(IRMASAD, x=550, y=80,w=200,h=130, cena=todos, vai=self.sobe_desce)
+        self.boy = Elemento(MENINOSAD, x=600, y=60,w=250,h=150, cena=todos, vai=self.sobe_desce)
+        self.doggie = Elemento(DOG, x=540, y=130,w=100,h=70, cena=todos, vai=self.sobe_desce)
+        self.roldA = Elemento(ROLDANA, x=612, y=52,w=320,h=160, cena=todos, vai=self.sobe_desce)
+        self.roldB = Elemento(ROLDANA, x=370, y=52,w=320,h=160, cena=todos, vai=self.sobe_desce)
+       
         
         # Musica("https://raw.githubusercontent.com/kwarwp/anita/master/bensound-creativeminds.mp3")
         self._sobe_desce = self._desce
