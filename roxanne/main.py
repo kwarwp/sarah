@@ -41,7 +41,7 @@ class gameInicio:
         fake.vai = self.elevador
         dia = Cena(FUNDODIA, direita=fake )
         dia.vai()
-        self.bil = Elemento(BILHETE, x=200, y=80,w=800,h=600, cena=dia, vai = self.elevador)
+        self.bil = Elemento(BILHETE, x=200, y=20,w=900,h=600, cena=dia, vai = self.elevador)
     
     def toca(self, ev=0):
         self.musica.sound.play()
