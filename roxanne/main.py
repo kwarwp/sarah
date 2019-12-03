@@ -44,14 +44,14 @@ class gameInicio:
         self.bil = Elemento(BILHETE, x=500, y=120,w=400,h=400, cena=dia, vai = self.elevador)
     
     def toca(self, ev=0):
-        self.musica.sound.stop()
+        self.musica.sound.pause()
         self.musA.img.src = SOMB
     
     def elevador(self, ev=0):
         todos = Cena(FUNDODIA)
         todos.vai()
         self.musica = Musica(TRACK)
-        self.musica.sound.stop()
+        self.musica.sound.pause()
         self.musA = Elemento(SOMA, x=1200, y=500,w=80,h=80, cena=todos, vai=self.toca)
     
         
