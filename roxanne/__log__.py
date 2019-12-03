@@ -738,3 +738,10 @@ SyntaxError: invalid syntax
                                     ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Dec 03 2019 15:15:32.572 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 54
+  self.linhaC = Elemento(CORDA, x=650, y=110,w=280,h=180, cena=todos, vai=self.sobe_desce)
+  ^
+IndentationError: unexpected indent
+'''},
