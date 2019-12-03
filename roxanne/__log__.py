@@ -717,3 +717,10 @@ NameError: name 'play' is not defined
                                                                                          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Dec 03 2019 12:32:55.560 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 46
+  self.predio = Elemento(PREDIO, x=300, y=100,w=180,h=180, cena=dia, vai=self.sobe_desce))
+                                                                                         ^
+SyntaxError: invalid syntax
+'''},
