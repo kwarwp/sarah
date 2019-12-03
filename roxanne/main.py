@@ -33,13 +33,15 @@ class gameInicio:
         self.play = Elemento(PLAY, x=560, y=470,w=180,h=120, cena=gameInicio, vai = self.mostradia)
     
     def mostradia(self,ev=0):
-        dia = Cena(FUNDODIA)
+        fake = Cena()
+        fake.vai = self.Elevador
+        dia = Cena(FUNDODIA, direita=fake )
         dia.vai()
-        self.bil = Elemento(BILHETE, x=500, y=120,w=400,h=400, cena=dia)
+        self.bil = Elemento(BILHETE, x=500, y=120,w=400,h=400, cena=dia, vai = self.elevador)
     
-"""
+
     def elevador():
-        dia = Cena(FUNDODIA)
+        todos = Cena(FUNDODIA)
         dia.vai()
         self.predio = Elemento(PREDIO, x=300, y=100,w=180,h=180, cena=dia, vai=self.sobe_desce))
         predio.vai()
