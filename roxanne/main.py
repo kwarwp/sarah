@@ -47,7 +47,7 @@ class gameInicio:
         todos = Cena(FUNDODIA)
         todos.vai()
         #self.musica = Musica(TRACK)
-        self.musA = Elemento(SOMA, x=750, y=30,w=100,h=100, cena=todos, vai=self.sobe_desce)
+        self.musA = Elemento(SOMA, x=1200, y=500,w=80,h=80, cena=todos, vai=self.sobe_desce)
         
         self.predio = Elemento(PREDIO, x=350, y=180,w=600,h=300, cena=todos, vai=self.sobe_desce)
         self.girl = Elemento(IRMASAD, x=550, y=80,w=200,h=130, cena=todos, vai=self.sobe_desce)
