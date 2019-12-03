@@ -33,7 +33,7 @@ class gameInicio:
         self.play = Elemento(PLAY, x=560, y=470,w=180,h=120, cena=gameInicio)
         play.vai()
         dia = Cena(FUNDODIA)
-        self.direita = dia
+        play.direita = dia
         dia.vai()
 """
     def elevador():
