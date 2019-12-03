@@ -35,7 +35,7 @@ class gameInicio:
     def mostradia(self,ev=0):
         dia = Cena(FUNDODIA)
         dia.vai()
-        self.bil = Elemento(BILHETE, x=300, y=470,w=300,h=400, cena=dia)
+        self.bil = Elemento(BILHETE, x=500, y=120,w=400,h=400, cena=dia)
     
 """
     def elevador():
