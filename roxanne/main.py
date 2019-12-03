@@ -25,7 +25,7 @@ ROLDANA = "https://i.imgur.com/FvD7tcb.png"
 CONFETES = "https://i.imgur.com/SIV1CTm.png"
 CORDA="https://i.imgur.com/cUf3qAv.png"
 CORDANO= "https://i.imgur.com/qyAtbdK.png"
-BILHETE = "https://i.imgur.com/DANjfy8.png"
+BILHETE = "https://i.imgur.com/p9SteRs.png"
 STYLE ["width"] = 1320
 STYLE ["height"] = "600px"
 # Musica("https://raw.githubusercontent.com/kwarwp/anita/master/bensound-creativeminds.mp3")
