@@ -45,21 +45,21 @@ class gameInicio:
     
     def toca(self, ev=0):
         self.musica.sound.play()
-        self.musA.vai = self.pause
-        self.musA.img.src = SOMB
+        self.musA.x= -1200
+        self.musB.x= 1200
     
     def pause(self, ev=0):
         self.musica.sound.pause()
-        self.musA.vai = self.toca
-        self.musA.img.src = SOMA
+        self.musA.x= 1200
+        self.musB.x= -1200
     
     def elevador(self, ev=0):
         todos = Cena(FUNDODIA)
         todos.vai()
         self.musica = Musica(TRACK)
         self.musica.sound.pause()
-        self.musA = Elemento(SOMA, x=1200, y=500,w=80,h=80, cena=todos, vai=self.toca)
-    
+        self.musA = Elemento(SOMA, x=-1200, y=500,w=80,h=80, cena=todos, vai=self.toca)
+        self.musB = Elemento(SOMB, x=1200, y=500,w=80,h=80, cena=todos, vai=self.pause)
         
         self.predio = Elemento(PREDIO, x=350, y=180,w=600,h=300, cena=todos, vai=self.sobe_desce)
         self.girl = Elemento(IRMASAD, x=550, y=80,w=200,h=130, cena=todos, vai=self.sobe_desce)
