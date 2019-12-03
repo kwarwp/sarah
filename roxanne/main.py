@@ -21,6 +21,7 @@ FOGOESTREITO = "https://i.imgur.com/N93X5s1.png"
 ROLDANA = "https://i.imgur.com/FvD7tcb.png"
 CONFETES = "https://i.imgur.com/SIV1CTm.png"
 CORDA="https://i.imgur.com/cUf3qAv.png"
+CORDANO= "https://i.imgur.com/qyAtbdK.png"
 BILHETE = "https://i.imgur.com/DANjfy8.png"
 STYLE ["width"] = 1320
 STYLE ["height"] = "600px"
@@ -46,8 +47,15 @@ class gameInicio:
         self.girl = Elemento(IRMASAD, x=550, y=80,w=200,h=130, cena=todos, vai=self.sobe_desce)
         self.boy = Elemento(MENINOSAD, x=600, y=60,w=250,h=150, cena=todos, vai=self.sobe_desce)
         self.doggie = Elemento(DOG, x=540, y=130,w=100,h=70, cena=todos, vai=self.sobe_desce)
-        self.roldA = Elemento(ROLDANA, x=612, y=52,w=320,h=160, cena=todos, vai=self.sobe_desce)
-        self.roldB = Elemento(ROLDANA, x=370, y=52,w=320,h=160, cena=todos, vai=self.sobe_desce)
+        self.linhaA = Elemento(CORDA, x=520, y=-12,w=270,h=150, cena=todos, vai=self.sobe_desce)
+        self.roldA = Elemento(ROLDANA, x=580, y=33,w=380,h=180, cena=todos, vai=self.sobe_desce)
+        self.roldB = Elemento(ROLDANA, x=340, y=33,w=380,h=180, cena=todos, vai=self.sobe_desce)
+        self.cestinhaA = Elemento(CESTA, x=440, y=160,w=120,h=120, cena=todos, vai=self.sobe_desce)
+        self.cestinhaB = Elemento(CESTA, x=740, y=350,w=120,h=120, cena=todos, vai=self.sobe_desce)
+        self.linhaB = Elemento(CORDA, x=100, y=100,w=320,h=200, cena=todos, vai=self.sobe_desce)
+        self.linhaB.elt.style.transform = "rotate(90deg)"
+        self.linhaC = Elemento(CORDA, x=440, y=100,w=320,h=200, cena=todos, vai=self.sobe_desce)
+        self.linhaC.elt.style.transform = "rotate(90deg)"
        
         
         # Musica("https://raw.githubusercontent.com/kwarwp/anita/master/bensound-creativeminds.mp3")
