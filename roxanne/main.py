@@ -38,7 +38,7 @@ class gameInicio:
         gameInicio = Cena(CENAINICIO)
         gameInicio.vai()
         dark= Elemento("",style=dict(width="1345px",height="600px",backgroundColor="black",opacity=0.7),cena=gameInicio)
-        self.logotipo = Elemento(LOGO, x=370, y=30,w=600,h=420, cena=gameInicio)
+        self.logotipo = Elemento(LOGO, x=370, y=30,w=650,h=400, cena=gameInicio)
         self.play = Elemento(PLAY, x=570, y=470,w=180,h=120, cena=gameInicio, vai = self.mostradia)
         
     
