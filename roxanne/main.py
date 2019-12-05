@@ -33,6 +33,7 @@ STYLE ["height"] = "600px"
 # Musica("https://raw.githubusercontent.com/kwarwp/anita/master/bensound-creativeminds.mp3")
 #INICIO DO JOGO
 class gameInicio:
+	# start da classe, é aqui que o jogo se inicia
     def __init__(self):
         gameInicio = Cena(CENAINICIO)
         gameInicio.vai()
@@ -40,6 +41,7 @@ class gameInicio:
         self.logotipo = Elemento(LOGO, x=370, y=30,w=650,h=400, cena=gameInicio)
         self.play = Elemento(PLAY, x=570, y=470,w=180,h=120, cena=gameInicio, vai = self.mostradia)
         
+    # método que controla o background
     def mostradia(self,ev=0):
         fake = Cena()
         fake.vai = self.elevador
