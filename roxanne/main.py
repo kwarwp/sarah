@@ -64,7 +64,7 @@ class gameInicio:
         todos = Cena(FUNDODIA)
         todos.vai()
         self.musica = Musica(TRACK)
-        self.musica.sound.play()
+        self.musica.sound.pause()
         self.musA = Elemento(SOMA, x=1200, y=500,w=80,h=80, cena=todos, vai=self.toca)
         self.musB = Elemento(SOMB, x=-1200, y=500,w=80,h=80, cena=todos, vai=self.pause)
         
