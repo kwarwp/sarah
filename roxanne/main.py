@@ -121,15 +121,15 @@ class gameInicio:
         self._entra_sai= self._sai
         self._doggie_sobe = lambda:self._move_doggie(100)
         self._doggie_desce = lambda:self._move_doggie(400)
-        self.na_cesta="doggie"
+        self.na_cesta = "doggie"
         self.doggie.elt.style.left = 510
         #INVENTARIO.score(casa="doggie", carta=self.na_cesta, move="entra", ponto=0, valor=0, _level=1)
         
     def _sai(self, *_):
-        self._entra_sai= self._entra
+        self._entra_sai = self._entra
         self._doggie_sobe = lambda:None
         self._doggie_desce = lambda:None
-        self.na_cesta="nada"
+        self.na_cesta = "nada"
         self.doggie.elt.style.left = 350
         #INVENTARIO.score(casa="doggie", carta=self.na_cesta, move="sai", ponto=0, valor=0, _level=1)
     
@@ -157,18 +157,18 @@ class gameInicio:
         self.doggie.elt.style.top = tanto
         
     def _entra(self, *_): #_ serve para
-        self._entra_sai= self._sai
+        self._entra_sai = self._sai
         self._doggie_sobe = lambda:self._move_doggie(100)
         self._doggie_desce = lambda:self._move_doggie(400)
-        self.na_cesta="doggie"
+        self.na_cesta = "doggie"
         self.doggie.elt.style.left = 510
         #INVENTARIO.score(casa="doggie", carta=self.na_cesta, move="entra", ponto=0, valor=0, _level=1)
         
     def _sai(self, *_):
-        self._entra_sai= self._entra
+        self._entra_sai = self._entra
         self._doggie_sobe = lambda:None
         self._doggie_desce = lambda:None
-        self.na_cesta="nada"
+        self.na_cesta = "nada"
         self.doggie.elt.style.left = 350
     
 gameInicio()
