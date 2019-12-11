@@ -815,3 +815,10 @@ NameError: name 'cenaInicio' is not defined
     cenaInicio.direita = cenaFim
 NameError: name 'cenaInicio' is not defined
 '''},
+{'date': 'Wed Dec 11 2019 15:41:46.340 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 70
+  """      
+  ^
+IndentationError: unexpected indent
+'''},
